@@ -1,0 +1,17 @@
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+permalink: /:title
+locale: pt_BR
+twitter:
+  username: danielbonifacio
+  card: summary
+
+social:
+  name: Daniel Bonifacio
+  links:
+    - https://twitter.com/dnbnfc
+    - https://www.facebook.com/danielbnfc
+    - https://www.linkedin.com/in/danielbonifaciocombr
+    - https://github.com/danielbonifacio

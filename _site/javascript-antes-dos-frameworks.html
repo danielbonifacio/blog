@@ -1,0 +1,1089 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript antes de qualquer framework - Daniel Bonifacio's Blog</title>
+    <link rel="stylesheet" href="/styles/index.css">
+
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>JavaScript antes de qualquer framework</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="JavaScript antes de qualquer framework" />
+<meta name="author" content="Daniel Bonifacio" />
+<meta property="og:locale" content="pt_BR" />
+<meta name="description" content="Olá. Antes de iniciar, só para te contextualizar: escrevi esse arquivo na intenção de ser um roteiro para uma série de vídeos, por isso, em alguns casos, verão eu me referindo a este como se fosse um vídeo. No mais, espero que aprendam bastante, e compartilhe o conhecimento. Abs, Daniel Bonifacio." />
+<meta property="og:description" content="Olá. Antes de iniciar, só para te contextualizar: escrevi esse arquivo na intenção de ser um roteiro para uma série de vídeos, por isso, em alguns casos, verão eu me referindo a este como se fosse um vídeo. No mais, espero que aprendam bastante, e compartilhe o conhecimento. Abs, Daniel Bonifacio." />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-03-05T00:00:00-03:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="JavaScript antes de qualquer framework" />
+<meta name="twitter:site" content="@danielbonifacio" />
+<meta name="twitter:creator" content="@Daniel Bonifacio" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","headline":"JavaScript antes de qualquer framework","dateModified":"2020-03-05T00:00:00-03:00","datePublished":"2020-03-05T00:00:00-03:00","mainEntityOfPage":{"@type":"WebPage","@id":"/javascript-antes-dos-frameworks"},"url":"/javascript-antes-dos-frameworks","author":{"@type":"Person","name":"Daniel Bonifacio"},"description":"Olá. Antes de iniciar, só para te contextualizar: escrevi esse arquivo na intenção de ser um roteiro para uma série de vídeos, por isso, em alguns casos, verão eu me referindo a este como se fosse um vídeo. No mais, espero que aprendam bastante, e compartilhe o conhecimento. Abs, Daniel Bonifacio.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+  <body>
+    <div class="container body">
+      <div class="sidebar">
+  <header>
+    <figure>
+      <span class="smile">
+        <img src="/assets/smile.svg" alt="smile">
+      </span>
+    </figure>
+    <h1 class="blog-title">
+      <a href="/">Daniel Bonifacio</a>
+    </h1>
+    <p>Especialista em desenvolvimento web, atualmente é instrutor de front-end na <a href="#">@algaworks</a>.</p>
+  </header>
+  <aside>
+    <ul class="social-media">
+      <li>
+        <a href="https://instagram.com/danielbonifacio.dev" target="_blank">
+          <img width="18px" src="/assets/instagram.svg" alt="instagram icon">
+          meu instagram
+        </a>
+      </li>
+      <li>
+        <a href="https://youtube.com/particaonerd" target="_blank">
+          <img width="18px" src="/assets/youtube.svg" alt="youtube icon">
+          meu canal no youtube
+        </a>
+      </li>
+    </ul>
+
+    <p>
+      <a href="/feed.xml">RSS Feed</a>
+    </p>
+
+    <p>
+      &copy; 2021 Daniel Bonifacio
+    </p>
+  </aside>
+</div>
+      <main>
+        <article class="post-container">
+          <header class="post-header">
+            <h1>JavaScript antes de qualquer framework</h1>
+            <p class="post-date">05 Mar 2020 - Daniel Bonifacio</p>
+          </header>
+
+          <div class="post-content">
+            <blockquote>
+  <p>Olá. Antes de iniciar, só para te contextualizar: escrevi esse arquivo na intenção de ser um roteiro para uma série de vídeos, por isso, em alguns casos, verão eu me referindo a este como se fosse um vídeo. No mais, espero que aprendam bastante, e compartilhe o conhecimento. Abs, Daniel Bonifacio.</p>
+</blockquote>
+
+<h1 id="javascript-before-any-framework">JavaScript before any framework</h1>
+
+<p>É claro que todo desenvolvedor web já ouviu falar (ou ao menos deveria ter ouvido) sobre React, Vue ou Angular. Estas ferramentas são chamadas de frameworks, que são, basicamente, um conjunto de ferramentas para agilizar o desenvolvimento de aplicações front-end.</p>
+
+<p>Escolher um framework para trabalho, às vezes, é uma decisão difícil. Empresas usam X, você gosta de Y, mas Z paga melhor, enfim… uma porra!</p>
+
+<p>Mas existe algo em comum entre eles que você precisa saber antes de escolher um: JavaScript. Me chamo Daniel Bonifacio, sou Engenheiro de Software e nessa série eu vou te ensinar tudo que você precisa saber sobre JavaScript antes de entrar de cabeça em estudos de algum framework.</p>
+
+<p>Observação: Não vou ensinar coisas muito básicas, como declaração de variáveis, tipos, etc. Imagino que você já saiba isso. Vou ensinar pontos chave do JavaScript <strong>moderno</strong> e metodologias/teorias que grande parte dos frameworks usam.</p>
+
+<p>Antes de iniciar a série de vídeos, vou pedir que compartilhe este vídeo com seus amigos, comente e avalie com um like, pois deu muito trabalho escrever tudo isso. De verdade. Mais de mil linhas de roteiro e exemplos.</p>
+
+<p>Também é importante que você não pule nenhuma aula. Mesmo que você já saiba sobre algum assunto, assista todas as aulas, pois posso falar algo importante ou fazer referência a outra aula no meio.</p>
+
+<p>Então pode se acomodar na cadeira, que lá vem conteúdo bom. Muito bom.</p>
+
+<h2 id="http-request">HTTP Request</h2>
+
+<p>Não tem como falar de frameworks front-end sem, antes, entender o que é e como funciona uma requisição HTTP.</p>
+
+<p>Em resumo, toda e qualquer ação que você comete na internet, como acessar uma página ou enviar um formulário, envia uma nova requisição HTTP.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Uma requisição HTTP contém cabeçalhos, (<em>headers</em>) corpo, (<em>body</em>) verbo (<em>method</em></td>
+      <td> </td>
+      <td><em>verb</em>) e um destino, que é a URL para onde você vai enviar os dados anteriores.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="headers">Headers</h3>
+
+<p>Cabeçalhos são, basicamente, meta informações sobre sua requisição. Nele, geralmente, enviamos e recebemos tokens, cookies, informações sobre o servidor, etc.</p>
+
+<h3 id="body">Body</h3>
+
+<p>O corpo da requisição é, como o nome sugere, o local onde enviamos e recebemos todas as informações que nossa requisição precisa, com exceção de tokens e outros metadados.</p>
+
+<p>Os dados preenchidos no formulário, credenciais, arquivos, enfim, tudo isso será enviado no corpo da requisição.</p>
+
+<h3 id="verbo">Verbo</h3>
+
+<p>O verbo da requisição é apenas outro metadado, mas de exetrema importância para a execução da requsição. Eles definem se a requisição será para recuperar uma informação, enviar uma informação, atualizar um dado ou mesmo deletar algo.</p>
+
+<p>As mais conhecidas:</p>
+
+<ul>
+  <li>GET - geralmente, utilizado para receber algo</li>
+  <li>POST - geralmente, utilizado para enviar algo</li>
+  <li>PUT, PATCH - geralmente, utilizados para atualizar algo</li>
+  <li>DELETE - geralmente, utilizado para deletar algo</li>
+</ul>
+
+<p>Mas não para por aí. A gente falou de como uma requisição, geralmente, é montada, mas não falamos ainda dos tipos de requisição que podemos fazer no nosso navegador.</p>
+
+<p>Como eu falei no começo do capítulo, qualquer ação que você comete na internet, gera uma nova requisição, e dei dois exemplos: acessar uma página e enviar um formulário, e eis a diferença entre eles:</p>
+
+<p>Ao acessar uma página, o seu navegador faz uma requisição HTTP para a URL que você digitou (obrigatoriamente do tipo GET) e recebe, no corpo da resposta, toda a estrutura/marcação HTML da sua página.</p>
+
+<p>Já no envio de um formulário, você pode perceber que, geralmente, a página permanece parada e não atualiza, apenas te da um feedback sobre o status do envio do seu formulário.</p>
+
+<p>Esse tipo de requisição se popularizou com o nome de AJAX. AJAX é um acrônimo para, em tradução livre: JavaScript Assíncrono e XML.</p>
+
+<p>Mesmo que, atualmente, se utilizem formatos mais sustentáveis, como JSON, ao invés do XML, esta técnica ainda é conhecida por este nome, e, sinceramente, foi uma revolução na época.</p>
+
+<p>Em resumo, JavaScript assíncrono é um código JavaScript que roda em outro bloco, lado a lado. Ou seja: você pode fazer várias coisas ao mesmo tempo, com JavaScript assíncrono. Caso você queira saber mais sobre JavaScript assícrono, eu já tenho uma aula sobre isso, veja no link, na descrição.</p>
+
+<p>Pronto, agora você sabe o suficiente sobre requisições HTTP para prosseguir.</p>
+
+<h3 id="modules">Modules</h3>
+
+<p>Outro ponto que você precisa dominar, antes de entrar no mundo dos frameworks JavaScript são módulos. Especificamente, ESModules.</p>
+
+<p>Módulos são formas de importar e exportar objetos dentro do seu código JavaScript.</p>
+
+<p>A sintaxe de módulos é muito simples de ser utilizada. Digamos que você cria uma classe <code class="language-plaintext highlighter-rouge">Human</code> e quer exportar ela, para usar em outro módulo.</p>
+
+<p>Bom, isso pode ser feito através do <code class="language-plaintext highlighter-rouge">export</code>.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">import</span> <span class="nx">Animal</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">./Animal.js</span><span class="dl">'</span> <span class="c1">// spoiler</span>
+
+<span class="kd">class</span> <span class="nx">Human</span> <span class="kd">extends</span> <span class="nx">Animal</span> <span class="p">{</span>
+	<span class="nx">say</span> <span class="p">(</span><span class="nx">words</span><span class="p">)</span> <span class="p">{</span>
+		<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">words</span><span class="p">)</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+
+<span class="c1">// exports Human constructor</span>
+<span class="k">export</span> <span class="nx">Human</span>
+</code></pre></div></div>
+
+<p>Uma vez importada, você</p>
+
+<p>Você pode importar assim:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">import</span> <span class="p">{</span> <span class="nx">Human</span> <span class="p">}</span>  <span class="k">from</span> <span class="dl">'</span><span class="s1">./Human.js</span><span class="dl">'</span>
+
+<span class="k">import</span> <span class="nx">Human</span><span class="p">,</span> <span class="p">{</span> <span class="nx">adam</span> <span class="p">}</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">./human.js</span><span class="dl">'</span> <span class="c1">// shortcut</span>
+
+<span class="kd">const</span> <span class="nx">eve</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Human</span><span class="p">(</span><span class="dl">'</span><span class="s1">Eve</span><span class="dl">'</span><span class="p">)</span>
+<span class="nx">eve</span><span class="p">.</span><span class="nx">eat</span><span class="p">(</span><span class="dl">'</span><span class="s1">apple</span><span class="dl">'</span><span class="p">)</span>
+<span class="nx">adam</span><span class="p">.</span><span class="nx">say</span><span class="p">(</span><span class="dl">'</span><span class="s1">oh sheet</span><span class="dl">'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Claro que não existe somente essa forma de importar ou exportar algo, mas são as mais comuns. A todo caso, existe uma ótima documentação da MDN sobre import e exeport, no link que se encontra na descrição.</p>
+
+<ul>
+  <li>https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/import</li>
+</ul>
+
+<p>Mas esse básico já vai te salvar muito na hora de mexer com os frameworks.</p>
+
+<h3 id="classes">Classes</h3>
+
+<p>Se você não sabe o conceito de orientação à objeto, cara, ce precisa aprender. É amplamente utilizado em, basicamente, toda programação. Mas relaxa que eu tô aqui para ensinar, e é isso que vou fazer.</p>
+
+<p>Antes disso, vou deixar um aviso: caso você não consiga entender o conceito de classes e orientação à objetos no geral, não se sinta mal, este é um paradigma diferente do que, provavelmente, você está acostumado, é um pouco complexo e as pessoas demoram um pouquinho mesmo para entender. Vá com garra! Procure mais fontes de conhecimento depois dessa aula, pois você precisa dominar esse assunto. Não é uma opção.</p>
+
+<p>A orientação à objetos é um conceito muito velho inventado por um programador influente muito velho e que veio a se popularizar há muito tempo. Acredite ou não: da pra reescrever a porra do universo usando esse conceito.</p>
+
+<p>O conceito sugere que, tudo deve ser um objeto. E um objeto é composto por um conjunto de propriedades e métodos. Não sei se você percebeu, mas é assim que o universo funciona.</p>
+
+<p>Uma caneta, por exemplo. Ela tem propriedades, como a tampa, a cor, a marca, a ponta, etc. E métodos, como escrever, tampar, destampar, etc.</p>
+
+<p>Um animal também tem propriedades: olhos, peso, sexo, etc. assim como métodos: respirar, movimentar, ou sei lá, peidar. Animais peidam.</p>
+
+<p>Acho que deu pra entender que objetos possuem propriedades (que são características deles) e métodos (que ações executadas por ele).</p>
+
+<p>O que você também deve ter percebido é que todas as canetas possuem métodos em comum, como, por exemplo: escrever. Todos os animais também, como, por exemplo, respirar.</p>
+
+<p>Agora você, que é o gênio da programação moderna está pensando: “Mas nem toda a caneta tem tampa. Refutado”. Agora que essa parada fica interessante: você já estudou sobre evolução e ramificação? Então, da pra fazer isso com a orientação a objetos. Por essa você não esperava.</p>
+
+<p>Resumidamente, existe um conceito de herança na OOP. Uma classe pode basicamente, exender de outra classe.</p>
+
+<p>Se sua cabeça ta explodindo com esse tanto de informação ao mesmo tempo sobre, classes, objetos, heranças, peidos, relaxa, vou te explicar tudo com calma agora.</p>
+
+<h4 id="classes-objects-and-inheritance">Classes, objects and inheritance</h4>
+
+<p>Uma classe é, resumidamente, uma fôrma para um objeto. Ela vai conter todos os métodos daquele objeto. Pensa nela como um esqueleto do objeto.</p>
+
+<p>Um objeto é uma instância dessa classe. Ou seja, posso usar minha forma para fazer vários objetos. Na hora de instanciar, isto é, criar meu objeto, que eu irei informar quais são suas características.</p>
+
+<p>Herança é o ato de você extender uma classe da outra. Esse pode dar um pouquinho mais de trabalho para entender, mas vou tentar resumir na mesma linha de raciocínio.</p>
+
+<p>Imagine que você tem uma classe <code class="language-plaintext highlighter-rouge">Animal</code>, e esta classe possui as seguintes propriedades e métodos:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">name</code> - Propriedade; o nome do animal;</li>
+  <li><code class="language-plaintext highlighter-rouge">class</code> - Propriedade; o tipo do animal;</li>
+  <li><code class="language-plaintext highlighter-rouge">birthdate</code> - Propriedade; a data de nascimento do animal;</li>
+  <li><code class="language-plaintext highlighter-rouge">breath</code> - Método; o que mantem o animal vivo;</li>
+  <li><code class="language-plaintext highlighter-rouge">fart</code> - Método; você sabe o que é isso.</li>
+</ul>
+
+<p>Essa classe pode ser usada como base para qualquer animal, certo?</p>
+
+<p>Então, se eu quiser criar uma classe de mamíferos, posso simplesmente extender dessa classe e adicionar qualquer outra propriedade e/ou métodos, como amamentar. Uma de peixes, por exemplo, poderia acrescentar chorar, ou nadar.</p>
+
+<p>Como assim “chorar”? Quem que colocou isso no roteiro? Isso provavelmente é uma piada muito sem graça sobre signos que tirou toda minha credibilidade!</p>
+
+<p>Voltando.</p>
+
+<p>Eu também posso herdar de classes herdadas. Uma classe de humanos, por exemplo, herda da classe de mamíferos, que, por sua vez, herda da classe de animais. Nela eu poderia acrescentar diversas novas propriedades, como cor dos olhos, cabelo, tom da pele, sexo, etc. e vários métodos, como andar, falar, etc.</p>
+
+<p>Acho que o resumão é esse mesmo:</p>
+
+<p>adão = nova instância de um Humano com (propriedades)</p>
+
+<p>ou, em JavaScript:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">properties</span> <span class="o">=</span> <span class="p">{</span> <span class="na">name</span><span class="p">:</span> <span class="dl">'</span><span class="s1">adam</span><span class="dl">'</span><span class="p">,</span> <span class="na">sex</span><span class="p">:</span> <span class="dl">'</span><span class="s1">male</span><span class="dl">'</span> <span class="p">}</span>
+<span class="kd">const</span> <span class="nx">adam</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Human</span><span class="p">(</span><span class="nx">properties</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h4 id="prática">Prática</h4>
+
+<p>Criando uma nova classe:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nx">Animal</span> <span class="p">{</span>
+	<span class="c1">// props and methods goes here</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>No exemplo, eu criei uma classe com o nome <code class="language-plaintext highlighter-rouge">Animal</code>. Por convenção, o nome de classes é dado em <em>PascalCase</em>, enquando as instâncias, propriedades e métodos, em <em>camelCase</em>.</p>
+
+<p>Adicionando propriedades nessa classe:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nx">Animal</span> <span class="p">{</span>
+	<span class="kd">constructor</span><span class="p">(</span><span class="nx">properties</span><span class="p">)</span> <span class="p">{</span>
+		<span class="k">this</span><span class="p">.</span><span class="nx">name</span> <span class="o">=</span> <span class="nx">properties</span><span class="p">.</span><span class="nx">name</span>
+		<span class="k">this</span><span class="p">.</span><span class="nx">type</span> <span class="o">=</span> <span class="nx">properties</span><span class="p">.</span><span class="nx">type</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>No exemplo eu tenho dois novos elementos: o método construtor e a palavra reservada <code class="language-plaintext highlighter-rouge">this</code>.</p>
+
+<ul>
+  <li>Método construtor (<code class="language-plaintext highlighter-rouge">constructor</code>): Método que é executado automaticamente assim que uma nova instância é criada. Podemos passar parâmetros para ele.</li>
+  <li>Palavra reservada <code class="language-plaintext highlighter-rouge">this</code>: você já deveria conhecer, mas vou quebrar essa. A palavra reservada <code class="language-plaintext highlighter-rouge">this</code> sempre irá se referir ao contexto (objeto) em que está sendo executada.</li>
+</ul>
+
+<p>No exemplo acima, eu defini que meu objeto ganharia duas propriedades: <code class="language-plaintext highlighter-rouge">name</code> e <code class="language-plaintext highlighter-rouge">class</code> e que estas viriam do meu parâmetro <code class="language-plaintext highlighter-rouge">properties</code>. Ou seja, defini que as propriedades do meu objeto são as que eu passar no momento que criar ele.</p>
+
+<p>Como o <code class="language-plaintext highlighter-rouge">constructor</code> é um método, também podemos adicionar propriedades automaticamente, sem depender de um input na instância:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nx">Animal</span> <span class="p">{</span>
+	<span class="kd">constructor</span><span class="p">(</span><span class="nx">properties</span><span class="p">)</span> <span class="p">{</span>
+		<span class="k">this</span><span class="p">.</span><span class="nx">name</span> <span class="o">=</span> <span class="nx">properties</span><span class="p">.</span><span class="nx">name</span>
+		<span class="k">this</span><span class="p">.</span><span class="nx">type</span> <span class="o">=</span> <span class="nx">properties</span><span class="p">.</span><span class="nx">type</span>
+		
+		<span class="c1">// adding birthdate automatically</span>
+		<span class="k">this</span><span class="p">.</span><span class="nx">birthdate</span> <span class="o">=</span> <span class="nb">Date</span><span class="p">.</span><span class="nx">now</span><span class="p">()</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Mas como falei objetos, além de propriedades, possuem métodos. E eles são criados assim como o método <code class="language-plaintext highlighter-rouge">constructor</code>, a diferença é que eles não são chamados automaticamente (a não ser que você chame eles no construtor) na criação da instância:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nx">Animal</span> <span class="p">{</span>
+	<span class="kd">constructor</span><span class="p">(</span><span class="nx">properties</span><span class="p">)</span> <span class="p">{</span>
+		<span class="k">this</span><span class="p">.</span><span class="nx">name</span> <span class="o">=</span> <span class="nx">properties</span><span class="p">.</span><span class="nx">name</span>
+		<span class="k">this</span><span class="p">.</span><span class="nx">type</span> <span class="o">=</span> <span class="nx">properties</span><span class="p">.</span><span class="nx">type</span>
+		
+		<span class="c1">// adding birthdate automatically</span>
+		<span class="k">this</span><span class="p">.</span><span class="nx">birthdate</span> <span class="o">=</span> <span class="nb">Date</span><span class="p">.</span><span class="nx">now</span><span class="p">()</span>
+	<span class="p">}</span>
+	
+	<span class="nx">breath</span><span class="p">()</span> <span class="p">{</span>
+		<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">Huff</span><span class="dl">'</span><span class="p">)</span>
+	<span class="p">}</span>
+	
+	<span class="nx">fart</span><span class="p">()</span> <span class="p">{</span>
+		<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">Poot</span><span class="dl">'</span><span class="p">)</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Agora que temos nossa classe, podemos criar quantas instâncias queremos.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nx">Animal</span> <span class="p">{</span>
+	<span class="c1">// [... class stuff]</span>
+<span class="p">}</span>
+
+<span class="c1">// creating an instance</span>
+<span class="kd">const</span> <span class="nx">frog</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Animal</span><span class="p">({</span>
+	<span class="na">name</span><span class="p">:</span> <span class="dl">'</span><span class="s1">froggy</span><span class="dl">'</span><span class="p">,</span>
+	<span class="na">type</span><span class="p">:</span> <span class="dl">'</span><span class="s1">amphibian</span><span class="dl">'</span>
+<span class="p">})</span>
+
+<span class="c1">// accessing instance methods</span>
+<span class="nx">frog</span><span class="p">.</span><span class="nx">fart</span><span class="p">()</span> <span class="c1">// -&gt; "Poot"</span>
+
+<span class="c1">// accessing instance properties</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">frog</span><span class="p">.</span><span class="nx">type</span><span class="p">)</span> <span class="c1">// -&gt; "amphibian"</span>
+</code></pre></div></div>
+
+<p>Agora ta na hora de aprender a herdar de classes. É isso que move o mundo!</p>
+
+<p>Existes peculiaridades na hora de herdar de uma classe:</p>
+
+<ul>
+  <li>Você precisa herdar de uma classe, nunca de uma instância;</li>
+  <li>Você precisa chamar o método <code class="language-plaintext highlighter-rouge">super</code> no construtor da classe a ser extendida, para passar as propriedades dela para para a classe-pai;</li>
+  <li>Você pode adicionar novos métodos, e estes métodos estarão disponíveis somente nesta classe ou em classes que herdam dela. A classe pai ou irmãs não serão afetadas.</li>
+</ul>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nx">Mammal</span> <span class="kd">extends</span> <span class="nx">Animal</span> <span class="p">{</span>
+	<span class="kd">constructor</span><span class="p">(</span><span class="nx">properties</span><span class="p">)</span> <span class="p">{</span>
+		<span class="c1">// super calls the parent constructor</span>
+		<span class="c1">// I've called with the type setted</span>
+		<span class="k">super</span><span class="p">({</span>
+			<span class="p">...</span><span class="nx">properties</span><span class="p">,</span>
+			<span class="na">type</span><span class="p">:</span> <span class="dl">'</span><span class="s1">mammal</span><span class="dl">'</span>
+		<span class="p">})</span>
+	<span class="p">}</span>
+	
+	<span class="c1">// adding new methods</span>
+	<span class="c1">// this method will only be accessible in this class instances</span>
+	<span class="c1">// parent or siblings instances will not have this method</span>
+	<span class="nx">breastfeed</span><span class="p">(</span><span class="nx">time</span> <span class="o">=</span> <span class="mi">1500</span><span class="p">)</span> <span class="p">{</span>
+		<span class="c1">// I rlly dont know how2 represent this in javascript, srry</span>
+		<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">*breastfeeding</span><span class="dl">'</span><span class="p">)</span>
+		<span class="nx">setTimeout</span><span class="p">(()</span> <span class="o">=&gt;</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">*finished</span><span class="dl">'</span><span class="p">),</span> <span class="nx">time</span><span class="p">)</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>No exemplo, eu criei uma classe <code class="language-plaintext highlighter-rouge">Mammal</code> (mamífero) que extende de <code class="language-plaintext highlighter-rouge">Animal</code>, e diretamente no construtor, eu chamei o método <code class="language-plaintext highlighter-rouge">super</code> repassando as propriedades que recebo como parâmetro na criação da instância, mas sobescrevendo a propriedade <code class="language-plaintext highlighter-rouge">class</code> como mamífero.</p>
+
+<p>Também adicionei o método <code class="language-plaintext highlighter-rouge">breastfeed</code> (amamentar), sendo este um método que só poderá ser acessado por instâncias dessa classe (<em>Mammal</em>) ou de classes herdadas dela.</p>
+
+<p>Caso não tenha entendido muito bem a parte do super, deixo <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/super">esse artigo da MDN</a> como referência para estudo.</p>
+
+<p>Uma pergunta recorrente é “mas e se eu não quiser herdar o método X ou propriedade Y?”. A resposta ficará mais óbvia e aceitável com o passar do tempo e experiência com o paradígma.</p>
+
+<p>Se você precisa remover um método herdado, sua evolução está incorreta.</p>
+
+<p>Agora você tem duas opções: refazer sua arvore genealógica da forma correta, ou seja, acrescendo um ancestral primordial que não possui aquela propriedade ou método, ou seguir o baile e torcer pra ninguém nunca chamar aquele método que não deveria estar ali.</p>
+
+<p>Agora você já sabe sobre classes.</p>
+
+<h3 id="spread">Spread</h3>
+
+<p>Chegamos num dos carinhas mais legais do JavaScript moderno, o operador de Spread.</p>
+
+<p>Eu chamo ele de operador da liberdade. Mais pra frente cê vai ver o motivo.</p>
+
+<p>Na descrição oficial da MDN sobre o Spread, dizem que esse operador:</p>
+
+<blockquote>
+  <p>“permite que um objeto iterável, como um array ou string, seja expandida em locais onde zero ou mais argumentos (para chamadas de função) ou elementos (para literais de array) sejam esperados ou uma expressão de objeto seja expandida em locais onde zero ou mais pares de chave-valor (para literais de objeto) são esperados.”</p>
+</blockquote>
+
+<p>Vamos entender isso com calma, por partes.</p>
+
+<p>Ela diz que ele <em>“permite que um objeto iterável […] seja expandido em locais onde zero ou mais argumentos […] são esperados”</em></p>
+
+<p>Isso significa que se eu tenho uma função que espera, vamos dizer, 3 argumentos, posso chamar ela com um objeto iterável com o operador Spread, onde cada item será um parâmetro:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nx">Person</span> <span class="kd">extends</span> <span class="nx">Human</span> <span class="p">{</span>
+	<span class="kd">constructor</span><span class="p">(</span><span class="nx">name</span><span class="p">,</span> <span class="nx">age</span><span class="p">,</span> <span class="nx">career</span><span class="p">)</span> <span class="p">{</span>
+		<span class="k">this</span><span class="p">.</span><span class="nx">name</span> <span class="o">=</span> <span class="nx">name</span>
+		<span class="k">this</span><span class="p">.</span><span class="nx">age</span> <span class="o">=</span> <span class="nx">age</span>
+		<span class="k">this</span><span class="p">.</span><span class="nx">career</span> <span class="o">=</span> <span class="nx">career</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+
+<span class="kd">const</span> <span class="nx">iterableObject</span> <span class="o">=</span> <span class="p">[</span><span class="dl">'</span><span class="s1">Daniel</span><span class="dl">'</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="dl">'</span><span class="s1">Engenheiro de Software</span><span class="dl">'</span><span class="p">]</span>
+
+<span class="c1">// this</span>
+<span class="kd">const</span> <span class="nx">me</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Person</span><span class="p">(...</span><span class="nx">iterableObject</span><span class="p">)</span>
+<span class="c1">// has same effect as this</span>
+<span class="kd">const</span> <span class="nx">me</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Person</span><span class="p">(</span><span class="dl">'</span><span class="s1">Daniel</span><span class="dl">'</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="dl">'</span><span class="s1">Engenheiro de Software</span><span class="dl">'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Isso significa, também, que eu posso ter uma função que espera um número indefinido de argumentos, fazendo a lógica inversa:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">spell</span><span class="p">(...</span><span class="nx">chars</span><span class="p">)</span> <span class="p">{</span>
+	<span class="c1">// chars will be an array with all arguments received</span>
+	<span class="nx">chars</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">)</span>
+<span class="p">}</span>
+
+<span class="nx">spell</span><span class="p">(</span><span class="dl">'</span><span class="s1">A</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">E</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">I</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">O</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">U</span><span class="dl">'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Se você já trabalhou com Ruby alguma vez, vai notar que é, basicamente, a mesma coisa que o operador <em>*Splat</em>.</p>
+
+<p>Mas lembra que eu disse que chamava o Spread de “operador da liberdade”? Acho que é muito mais simples se você visualizar que este operador liberta os itens que estão contidos no objeto.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">spell</span><span class="p">(</span><span class="dl">'</span><span class="s1">A</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">E</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">I</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">O</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">U</span><span class="dl">'</span><span class="p">)</span> <span class="c1">// normal</span>
+<span class="nx">spell</span><span class="p">(...[</span><span class="dl">'</span><span class="s1">A</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">E</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">I</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">O</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">U</span><span class="dl">'</span><span class="p">])</span> <span class="c1">// com spread</span>
+</code></pre></div></div>
+
+<p>Se você reparar bem, o que ele faz é “remover” as chaves/colchetes que seguram os itens. Simples assim. E isso também é válido para objetos.</p>
+
+<p>Se você imaginar que o spread remove as chaves ou colchetes que estão ao redor do objeto, vai conseguir utilizar ele bem facilmente em várias situações.</p>
+
+<div class="language-diff highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gd">-['A', 'E', 'I', 'O', 'U']
+</span><span class="gi">+'A', 'E', 'I', 'O', 'U'
+</span></code></pre></div></div>
+
+<p>E, falando em objetos, vamos ir para a parte do spread que fala sobre ele. Na referência diz que ele <em>“permite que […] uma expressão de objeto seja expandida em locais onde zero ou mais pares de chave-valor […] são esperados.”</em>.</p>
+
+<p>O que eles querem dizer com isso é que você pode espalhar um objeto da mesma forma que espalha um array.</p>
+
+<p>Eu fiz isso quando falei de classes, não sei se você lembra.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nx">Mammal</span> <span class="kd">extends</span> <span class="nx">Animal</span> <span class="p">{</span>
+	<span class="kd">constructor</span><span class="p">(</span><span class="nx">properties</span><span class="p">)</span> <span class="p">{</span>
+		<span class="k">super</span><span class="p">({</span>
+			<span class="p">...</span><span class="nx">properties</span><span class="p">,</span> <span class="c1">// bem aqui</span>
+			<span class="na">type</span><span class="p">:</span> <span class="dl">'</span><span class="s1">mammal</span><span class="dl">'</span>
+		<span class="p">})</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Imagine que o valor de <code class="language-plaintext highlighter-rouge">properties</code> seja um objeto com 2 propriedades: <code class="language-plaintext highlighter-rouge">name</code> e <code class="language-plaintext highlighter-rouge">sex</code>. E eu preciso passar um objeto com 3 propriedades (<code class="language-plaintext highlighter-rouge">name</code>, <code class="language-plaintext highlighter-rouge">type</code> e <code class="language-plaintext highlighter-rouge">sex</code>) para o meu método <code class="language-plaintext highlighter-rouge">super()</code>.</p>
+
+<p>Para fazer isso sem o spread, teria que fazer isso:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nx">Mammal</span> <span class="kd">extends</span> <span class="nx">Animal</span> <span class="p">{</span>
+	<span class="kd">constructor</span><span class="p">(</span><span class="nx">properties</span><span class="p">)</span> <span class="p">{</span>
+		<span class="k">super</span><span class="p">({</span>
+			<span class="na">name</span><span class="p">:</span> <span class="nx">properties</span><span class="p">.</span><span class="nx">name</span><span class="p">,</span>
+			<span class="na">sex</span><span class="p">:</span> <span class="nx">properties</span><span class="p">.</span><span class="nx">sex</span><span class="p">,</span>
+			<span class="na">type</span><span class="p">:</span> <span class="dl">'</span><span class="s1">mammal</span><span class="dl">'</span>
+		<span class="p">})</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>O que, por enquanto, não é ruim. Mas a medida que essas propriedades vão aumentando, vai ficando horrível para quem vai dar manutenção.</p>
+
+<p>Você pode estar pensando: “mas e se eu passar o objeto inteiro sem o spread, não iria surtir o mesmo efeito?”. A resposta é não.</p>
+
+<p>Esse seria o resultado:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nx">Mammal</span> <span class="kd">extends</span> <span class="nx">Animal</span> <span class="p">{</span>
+	<span class="kd">constructor</span><span class="p">(</span><span class="nx">properties</span><span class="p">)</span> <span class="p">{</span>
+		<span class="k">super</span><span class="p">({</span>
+			<span class="nx">properties</span><span class="p">,</span>
+			<span class="na">type</span><span class="p">:</span> <span class="dl">'</span><span class="s1">mammal</span><span class="dl">'</span>
+		<span class="p">})</span>
+
+		<span class="c1">// expected:</span>
+		<span class="c1">// { name, sex, class }</span>
+
+		<span class="c1">// received:</span>
+		<span class="c1">// {</span>
+		<span class="c1">//   properties: { name, sex },</span>
+		<span class="c1">// 	 class</span>
+		<span class="c1">// }</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Talvez agora que você entenda o que eu disse sobre remover as chaves ou colchetes.</p>
+
+<p>Ao utilizar o Spread, eu removi as chaves ao redor do meu objeto, elevando trazendo os filhos dele para o mesmo nível do objeto onde o Spread foi utilizado.</p>
+
+<h4 id="spread-and-functional-programming">Spread and Functional Programming</h4>
+
+<p>O operador Spread se torna muito útil, por exemplo, em aplicações de programação funcional.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">toDos</span> <span class="o">=</span> <span class="p">[</span><span class="dl">'</span><span class="s1">wash car</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">buy milk</span><span class="dl">'</span><span class="p">]</span>
+<span class="kd">const</span> <span class="nx">newTodos</span> <span class="o">=</span> <span class="p">[...</span><span class="nx">toDos</span><span class="p">,</span> <span class="dl">'</span><span class="s1">play videogames</span><span class="dl">'</span><span class="p">]</span>
+
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">newTodos</span><span class="p">)</span> <span class="c1">// -&gt; ['wash car', 'buy milk', 'play videogames']</span>
+</code></pre></div></div>
+
+<p>Vale lembrar que, em casos de objetos e duplicidade de chaves, a ordem de prioridade é igual a do CSS: o último item declarado que prevalece.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">me</span> <span class="o">=</span> <span class="p">{</span>
+	<span class="na">name</span><span class="p">:</span> <span class="dl">'</span><span class="s1">Daniel</span><span class="dl">'</span><span class="p">,</span>
+	<span class="na">age</span><span class="p">:</span> <span class="mi">20</span><span class="p">,</span>
+	<span class="na">height</span><span class="p">:</span> <span class="mf">1.93</span>
+<span class="p">}</span>
+<span class="kd">const</span> <span class="nx">newMe</span> <span class="o">=</span> <span class="p">{</span>
+	<span class="p">...</span><span class="nx">me</span><span class="p">,</span>
+	<span class="na">age</span><span class="p">:</span> <span class="mi">21</span> <span class="c1">// placed after, will overwrite</span>
+<span class="p">}</span>
+
+<span class="kd">const</span> <span class="nx">notSoNewMe</span> <span class="o">=</span> <span class="p">{</span>
+	<span class="na">age</span><span class="p">:</span> <span class="mi">21</span><span class="p">,</span> <span class="c1">// placed befor, will be overwrited</span>
+	<span class="p">...</span><span class="nx">me</span>
+<span class="p">}</span>
+
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">newMe</span><span class="p">)</span> <span class="c1">// -&gt; { name: 'Daniel', age: 21, height: 1.93 }</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">notSoNewMe</span><span class="p">)</span> <span class="c1">// -&gt; { name: 'Daniel', age: 20, height: 1.93 }</span>
+</code></pre></div></div>
+
+<p>Pronto. Agora você já sabe o suficiente de spread para continuar.</p>
+
+<h3 id="fetch">Fetch</h3>
+
+<p>A gente já falou de requisição HTTP antes, lembra? O fetch é a API moderna do JavaScript que permite, de forma muito fácil, que a gente faça requisições AJAX nas nossas aplicações.</p>
+
+<p>Você incondicionalmente precisa saber o que são promises, async e await para prosseguir sobre este assunto. Eu já falei sobre isso antes. O Link está na descrição.</p>
+
+<p>Bom, como esta é uma API, pra facilitar, vou mostrar alguns exemplos e explicar o que eles fazem.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">fetch</span><span class="p">(</span><span class="dl">'</span><span class="s1">https://jsonplaceholder.typicode.com/posts</span><span class="dl">'</span><span class="p">,</span> <span class="p">{</span>
+	<span class="na">method</span><span class="p">:</span> <span class="dl">'</span><span class="s1">GET</span><span class="dl">'</span><span class="p">,</span>
+	<span class="na">headers</span><span class="p">:</span> <span class="p">{</span>
+		<span class="na">authorization</span><span class="p">:</span> <span class="dl">'</span><span class="s1">t0p_s3cr3t_t0k3n</span><span class="dl">'</span><span class="p">,</span>
+	<span class="p">}</span>
+<span class="p">})</span>
+	<span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">response</span> <span class="o">=&gt;</span> <span class="nx">response</span><span class="p">.</span><span class="nx">json</span><span class="p">())</span>
+	<span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">posts</span> <span class="o">=&gt;</span> <span class="p">{</span>
+		<span class="nx">posts</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="nx">post</span> <span class="o">=&gt;</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">post</span><span class="p">))</span>
+	<span class="p">})</span>
+	<span class="p">.</span><span class="k">catch</span><span class="p">(</span><span class="nx">console</span><span class="p">.</span><span class="nx">err</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Mesmo o código sendo autoexplicativo, vamos explicar ele.</p>
+
+<p>O objetivo do código é acessar a API do JSON Placeholder, recuperar todos os posts e logar cada um, separadamente, no console.</p>
+
+<p>Na primeira linha, a gente inicia uma nova requisição para a URL <code class="language-plaintext highlighter-rouge">https://jsonplaceholder.typicode.com/posts</code>, passando ela como o primeiro parâmetro do método <code class="language-plaintext highlighter-rouge">fetch()</code>.</p>
+
+<p>Já nas linhas de 2 a 5 a gente passa algumas opções para a nossa requisição, como o <code class="language-plaintext highlighter-rouge">method</code> (verbo) e um objeto de headers, que contém uma chave <code class="language-plaintext highlighter-rouge">authorization</code>, que é um padrão de envio de Token.</p>
+
+<p>Essa API retorna uma Promise, então vamos capturar seu retorno com <code class="language-plaintext highlighter-rouge">then()</code> e <code class="language-plaintext highlighter-rouge">catch()</code>.</p>
+
+<p>Reparem que existe um Promise chaining no código. Isso se deve pelo fato de que o retorno da promise é um objeto completo de resposta de requisição, com código de status, headers, etc.</p>
+
+<p>Mas, na maiorias massiva das vezes, a gente só precisa do corpo da resposta. Os dados em si. Por isso o objeto de resposta possui um método chamado <code class="language-plaintext highlighter-rouge">json()</code>, que retorna apenas o corpo.</p>
+
+<p>Então, na segunda liga da corrente, temos acesso aos posts diretamente. Agora iteramos sobre o array de posts, logando cada um separadamente.</p>
+
+<p>O catch tá ali esperando algum erro de conexão ou falha na resposta do servidor.</p>
+
+<h4 id="error-handling">Error handling</h4>
+
+<p>Agora vamos entrar num dos pontos negativos de se trabalhar com a fetch API, ao invés de uma biblioteca específica para requisições HTTP, como o axios.</p>
+
+<p>Em APIs REST a comunicação de erros é feita por código de status. Independente do que aconteça dentro do servidor, sempre haverá uma requisição e uma resposta.</p>
+
+<p>Geralmente, identificamos um erro por meio do código de status da requisição.</p>
+
+<p>O grande problema com a fetch API é que ela considera que “existe uma diferença entre um “erro” e uma “exception”. […] Não existe exception em receber códigos 4xx ou 5xx […].”.</p>
+
+<p>Por mais que eu tenha que concordar com quem disse isso, no ponto de vista teórico, isso significa que, na prática, você vai receber as respostas de erro da API no mesmo bloco que suas respostas de sucesso.</p>
+
+<p>Isso te obrigrar a comparar o status da requisição e, dependendo da camada onde você está, isso é, no meu ponto de vista, algo muito errado.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">fetch</span><span class="p">(</span><span class="dl">'</span><span class="s1">https://jsonplaceholder.typicode.com/posts</span><span class="dl">'</span><span class="p">,</span> <span class="p">{</span>
+	<span class="na">method</span><span class="p">:</span> <span class="dl">'</span><span class="s1">GET</span><span class="dl">'</span><span class="p">,</span>
+	<span class="na">headers</span><span class="p">:</span> <span class="p">{</span>
+		<span class="na">authorization</span><span class="p">:</span> <span class="dl">'</span><span class="s1">t0p_s3cr3t_t0k3n</span><span class="dl">'</span><span class="p">,</span>
+	<span class="p">}</span>
+<span class="p">})</span>
+	<span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">response</span> <span class="o">=&gt;</span> <span class="p">{</span>
+		<span class="kd">const</span> <span class="p">{</span> <span class="nx">status</span> <span class="p">}</span> <span class="o">=</span> <span class="nx">response</span>
+
+		<span class="k">if</span> <span class="p">(</span><span class="nx">status</span> <span class="o">&gt;=</span> <span class="mi">400</span> <span class="o">&amp;&amp;</span> <span class="nx">status</span> <span class="o">&lt;</span> <span class="mi">600</span><span class="p">)</span> <span class="p">{</span>
+			<span class="k">throw</span> <span class="p">{</span> <span class="nx">status</span><span class="p">,</span> <span class="nx">response</span> <span class="p">}</span>
+		<span class="p">}</span>
+
+		<span class="k">return</span> <span class="nx">response</span><span class="p">.</span><span class="nx">json</span><span class="p">()</span>
+	<span class="p">})</span>
+	<span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">posts</span> <span class="o">=&gt;</span> <span class="p">{</span>
+		<span class="nx">posts</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="nx">post</span> <span class="o">=&gt;</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">post</span><span class="p">))</span>
+	<span class="p">})</span>
+	<span class="p">.</span><span class="k">catch</span><span class="p">(</span><span class="nx">console</span><span class="p">.</span><span class="nx">err</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Como no exemplo acima. Isso é totalmente fora do padrão de responsabilidade.</p>
+
+<p>Então, entenda que se for mesmo usar fetch API, você terá 2 opções:</p>
+
+<ul>
+  <li>Quebrar padrões de desenvolvimento, aplicando responsabilidade que não deveriam estar ali, ali;</li>
+  <li>Encapsular ela em uma classe de requisições, e usar a classe. (melhor opção, no meu ponto de vista)</li>
+</ul>
+
+<p>Pronto, você sabe o suficiente sobre a fetch API.</p>
+
+<h3 id="array-manipulation">Array manipulation</h3>
+
+<p>Especialmente em sistemas, você vai trabalhar muito com listagens e filtros. E o JavaScript moderno facilitou tanto isso pra gente, que você não vai mais trabalhar com arrays da mesma forma, depois desta aula.</p>
+
+<p>Você vai aprender os métodos <code class="language-plaintext highlighter-rouge">map()</code>, <code class="language-plaintext highlighter-rouge">filter()</code> e <code class="language-plaintext highlighter-rouge">reduce()</code> e algumas técnicas legais que vão te ajudar no dia a dia.</p>
+
+<p>Mas, antes, vamos entender o básico de programação funcional, pois estes métodos são funcionais.</p>
+
+<h4 id="functional-programming">Functional Programming</h4>
+
+<p>Já dei um exemplo de programação funcional anteriormente, quando falamos no <em>Spread operator</em>. Mas agora vou dar um resumo sobre o que ela é.</p>
+
+<p>A programação funcional trabalha com um conceito de imutabilidade, e isso significa que, na programação funcional, nada tem seu valor alterado, tudo retorna um novo valor.</p>
+
+<p>Sei que isso pode parecer estranho, e esse assunto é tão complexo que merece uma série vídeos só pra ele, mas, por agora, entenda apenas que, na programação funcional, o valor de variáveis não é alterado. Novas variáveis que tomam seu lugar.</p>
+
+<p>E, como sei que você tá pensando “Mas por que caralhos?”, vou dar um resuminho das vantagens da programação funcional:</p>
+
+<ol>
+  <li>Facilidade nos testes e na busca por bugs;</li>
+  <li>Uso de gerenciamento de memória automático;</li>
+  <li>Semântica simples;</li>
+  <li>Reduz a complexidade do código;</li>
+  <li>Aumenta a modularização do código.</li>
+</ol>
+
+<p>Resumo: existem muitas vantagens em trabalhar com Programação Funcional, e alguns frameworks, como React, por exemplo, adotam ela como base.</p>
+
+<h4 id="map"><code class="language-plaintext highlighter-rouge">map()</code></h4>
+
+<p>Agora vamos falar do <code class="language-plaintext highlighter-rouge">Array.map()</code>, o mais famoso de todos, sem dúvidas.</p>
+
+<p>Lembrando: todos os métodos estão contidos no construtor <code class="language-plaintext highlighter-rouge">Array</code>, então podem ser acessados por meio deles.</p>
+
+<p>Você lembra como que se cria um array baseado em outro array, manipulando os dados internos?</p>
+
+<p>Existem <code class="language-plaintext highlighter-rouge">N</code> formas de fazer isso, mas vou fazer do jeito mais antigo que lembro.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">]</span>
+
+<span class="kd">const</span> <span class="nx">multiplyTimes</span> <span class="o">=</span> <span class="p">(</span><span class="nx">array</span><span class="p">,</span> <span class="nx">times</span> <span class="o">=</span> <span class="mi">2</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+	<span class="kd">const</span> <span class="nx">newNumbers</span> <span class="o">=</span> <span class="p">[]</span>
+
+	<span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">array</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+		<span class="kd">const</span> <span class="nx">newNumber</span> <span class="o">=</span> <span class="nx">array</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="o">*</span> <span class="mi">2</span>
+		<span class="nx">newNumbers</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">newNumber</span><span class="p">)</span>
+	<span class="p">}</span>
+
+	<span class="k">return</span> <span class="nx">newNumbers</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>No exemplo, criamos um array de números de 1 a 5, e depois criamos uma função que retorna os mesmos números multiplicados por 2.</p>
+
+<p>Fizemos isso com um laço de repetição <code class="language-plaintext highlighter-rouge">for</code>, da forma mais clássica possível.</p>
+
+<p>E se eu te disser que isso tudo pode se resumir em 1 linha de código, vai surtar? Pois é, com o <code class="language-plaintext highlighter-rouge">map()</code> pode.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">];</span>
+
+<span class="kd">const</span> <span class="nx">multiplyTimes</span> <span class="o">=</span> <span class="p">(</span><span class="nx">array</span><span class="p">,</span> <span class="nx">times</span> <span class="o">=</span> <span class="mi">2</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">array</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="nx">number</span> <span class="o">=&gt;</span> <span class="nx">number</span> <span class="o">*</span> <span class="nx">times</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Antes de tudo, lembre-se que disse que os métodos que eu disse aqui, são funcionais, isto é, eles retorna um novo valor que será um array.</p>
+
+<p>O método map recebe uma função como parâmetro, e esta função será executada em cada iteração. Ela recebe o valor do item que está sendo percorrido, no primeiro parâmetro, o segundo, o índice daquele valor, e, em terceiro, o array completo que está sendo iterado.</p>
+
+<p>Se você executar no console:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="dl">'</span><span class="s1">A</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">B</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">C</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">D</span><span class="dl">'</span><span class="p">].</span><span class="nx">map</span><span class="p">(</span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>terá uma noção básica do que ela recebe como parâmetro.</p>
+
+<p>E, para cada iteração, eu <strong>preciso</strong> retornar um valor. Esse será o valor inserido naquele índice, no novo array. Caso você não retorne nada, aquele índice receberá <code class="language-plaintext highlighter-rouge">undefined</code>.</p>
+
+<p>Então, voltando ao código do exemplo, eu criei uma função com o mesmo nome, que recebe os mesmos parâmetros, ela retorna um array (<code class="language-plaintext highlighter-rouge">Array.map()</code> retorna um array). Esse array é resultado do map do array passado como parâmetro, onde, em cada índice, eu retorno o valor daquele índice multiplicado por 2.</p>
+
+<p>E, como este é um método funcional, ou seja, não modifica o valor original, <code class="language-plaintext highlighter-rouge">numbers</code>, permanece com o mesmo valor de antes.</p>
+
+<p>O map é muito útil no react, quando você vai renderizar uma lista.</p>
+
+<p>Um spoiler seria mais ou menos assim:</p>
+
+<div class="language-jsx highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">List</span> <span class="o">=</span> <span class="p">(</span><span class="nx">list</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">&lt;</span><span class="nt">ul</span><span class="p">&gt;</span>
+	<span class="si">{</span> <span class="nx">list</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="nx">item</span> <span class="o">=&gt;</span> <span class="p">&lt;</span><span class="nt">li</span> <span class="na">key</span><span class="p">=</span><span class="si">{</span><span class="nx">item</span><span class="p">.</span><span class="nx">id</span><span class="si">}</span><span class="p">&gt;</span><span class="si">{</span><span class="nx">item</span><span class="p">.</span><span class="nx">title</span><span class="si">}</span><span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;)</span> <span class="si">}</span>
+<span class="p">&lt;/</span><span class="nt">ul</span><span class="p">&gt;</span>
+</code></pre></div></div>
+
+<p>Se você nunca viu, esse negócio aí em cima, te apresento um código simples em React.</p>
+
+<h4 id="filter"><code class="language-plaintext highlighter-rouge">filter()</code></h4>
+
+<p>Vimos, anteriormente, que o método <code class="language-plaintext highlighter-rouge">map()</code> precisa retornar um valor para o índice, do contrário, aquele índice retornará <code class="language-plaintext highlighter-rouge">undefined</code>. Isso impede a gente de criar uma lista filtrada, afinal, iremos ter objetos inconsistentes no array, gerando problemas futuros.</p>
+
+<p>Mas, para resolver estes casos, existe o <code class="language-plaintext highlighter-rouge">filter()</code>.</p>
+
+<p>Ele recebe os mesmos parâmetros que o <code class="language-plaintext highlighter-rouge">map()</code>, mudando apenas sua forma de retorno.</p>
+
+<p>Com o filter, você precisa retornar um <em>booleano</em>. Caso este booleano seja <code class="language-plaintext highlighter-rouge">true</code>, aquele item será adicionado no array final, caso seja <code class="language-plaintext highlighter-rouge">false</code>, será ignorado.</p>
+
+<p>Ou seja, ele server para filtrar itens de um array mesmo, como o nome sugere.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">]</span>
+
+<span class="c1">// without filter</span>
+<span class="kd">const</span> <span class="nx">getOdds</span> <span class="o">=</span> <span class="p">(</span><span class="nx">array</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+	<span class="kd">const</span> <span class="nx">odds</span> <span class="o">=</span> <span class="p">[]</span>
+
+	<span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">array</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+		<span class="kd">const</span> <span class="nx">isOdd</span> <span class="o">=</span> <span class="nx">array</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">!==</span> <span class="mi">0</span>
+		<span class="k">if</span> <span class="p">(</span><span class="nx">isOdd</span><span class="p">)</span> <span class="p">{</span>
+			<span class="nx">odds</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">array</span><span class="p">[</span><span class="nx">i</span><span class="p">])</span>
+		<span class="p">}</span>
+	<span class="p">}</span>
+
+	<span class="k">return</span> <span class="nx">odds</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>No exemplo criamos um algorítmo que, basicamente, retorna todos os números que não são divisores por 2, ou seja ímpares, do nosso array.</p>
+
+<p>Esse mesmo método pode ser escrito da seguinte forma, com <code class="language-plaintext highlighter-rouge">filter()</code>:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">]</span>
+
+<span class="kd">const</span> <span class="nx">getOdds</span> <span class="o">=</span> <span class="p">(</span><span class="nx">arr</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">arr</span><span class="p">.</span><span class="nx">filter</span><span class="p">(</span><span class="nx">number</span> <span class="o">=&gt;</span> <span class="nx">number</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">!==</span> <span class="mi">0</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Novamente, nosso array de origem (<code class="language-plaintext highlighter-rouge">numbers</code>) está intácto.</p>
+
+<p>Uma aplicação muito comum do filter em frameworks, como o React ou Vue, é para remover um item de um array.</p>
+
+<p>A técnica consiste em, basicamente, retornar todos os itens do array, exceto aquele que estamos querendo remover.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">removePerson</span> <span class="o">=</span> <span class="p">(</span><span class="nx">people</span><span class="p">,</span> <span class="nx">id</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">people</span><span class="p">.</span><span class="nx">filter</span><span class="p">(</span><span class="nx">person</span> <span class="o">=&gt;</span> <span class="nx">person</span><span class="p">.</span><span class="nx">id</span> <span class="o">!==</span> <span class="nx">id</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>E, para usar nosso método, é simples:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">people</span> <span class="o">=</span> <span class="p">[</span>
+	<span class="p">{</span><span class="na">id</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="na">name</span><span class="p">:</span> <span class="dl">'</span><span class="s1">Jake</span><span class="dl">'</span><span class="p">},</span>
+	<span class="p">{</span><span class="na">id</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span> <span class="na">name</span><span class="p">:</span> <span class="dl">'</span><span class="s1">John</span><span class="dl">'</span><span class="p">},</span>
+	<span class="p">{</span><span class="na">id</span><span class="p">:</span> <span class="mi">3</span><span class="p">,</span> <span class="na">name</span><span class="p">:</span> <span class="dl">'</span><span class="s1">Jacob</span><span class="dl">'</span><span class="p">},</span>
+	<span class="p">{</span><span class="na">id</span><span class="p">:</span> <span class="mi">4</span><span class="p">,</span> <span class="na">name</span><span class="p">:</span> <span class="dl">'</span><span class="s1">Jasmine</span><span class="dl">'</span><span class="p">}</span>
+<span class="p">]</span>
+
+<span class="kd">const</span> <span class="nx">newPeople</span> <span class="o">=</span> <span class="nx">removePerson</span><span class="p">(</span><span class="nx">people</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h4 id="reduce"><code class="language-plaintext highlighter-rouge">reduce()</code></h4>
+
+<p>O propósito do <code class="language-plaintext highlighter-rouge">reduce()</code> é, basicamente, iterar por um array, trazendo um único valor como retorno. Esse retorno pode ser de qualquer tipo.</p>
+
+<p>O método <code class="language-plaintext highlighter-rouge">reduce()</code> recebe, dois parâmetros. O primeiro é a função que será executada a cada iteração, e o segundo é o valor inicial do resultado final.</p>
+
+<p>Basicamente, são esses parâmetros:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">Array</span><span class="p">.</span><span class="nx">reduce</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">accumulator</span><span class="p">,</span> <span class="nx">currentValue</span><span class="p">,</span> <span class="nx">currentIndex</span><span class="p">,</span> <span class="nx">originalArray</span><span class="p">),</span> <span class="nx">initialValue</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Vamos começar com o básico, depois a gente vai aprofundando.</p>
+
+<p>Nosso primeiro algoritmo com o reduce, vai simplesmente somar todos os números de um Array.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">toSum</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">]</span>
+<span class="nx">toSum</span><span class="p">.</span><span class="nx">reduce</span><span class="p">((</span><span class="nx">accumulator</span><span class="p">,</span> <span class="nx">currentValue</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">acumulator</span> <span class="o">+</span> <span class="nx">currentValue</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>O resultado deve se 10, certo? Pois <code class="language-plaintext highlighter-rouge">1 + 2 = 3</code>, <code class="language-plaintext highlighter-rouge">3 + 3 = 6</code> e  <code class="language-plaintext highlighter-rouge">6 + 4 = 10</code>.</p>
+
+<p>Vamos fazer nosso script dizer o passo a passo também?</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">toSum</span><span class="p">.</span><span class="nx">reduce</span><span class="p">((</span><span class="nx">accumulator</span><span class="p">,</span> <span class="nx">currentValue</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+  <span class="kd">const</span> <span class="nx">result</span> <span class="o">=</span> <span class="nx">accumulator</span> <span class="o">+</span> <span class="nx">currentresult</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">`</span><span class="p">${</span><span class="nx">accumulator</span><span class="p">}</span><span class="s2"> + </span><span class="p">${</span><span class="nx">currentValue</span><span class="p">}</span><span class="s2"> = </span><span class="p">${</span><span class="nx">result</span><span class="p">}</span><span class="s2">`</span><span class="p">)</span>
+  <span class="k">return</span> <span class="nx">result</span>
+<span class="p">})</span>
+</code></pre></div></div>
+
+<p>E se a gente quiser passar um valor inicial para o <code class="language-plaintext highlighter-rouge">accumulator</code>? Simples, existe o parâmetro para isso.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">toSum</span><span class="p">.</span><span class="nx">reduce</span><span class="p">((</span><span class="nx">accumulator</span><span class="p">,</span> <span class="nx">currentValue</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+  <span class="kd">const</span> <span class="nx">result</span> <span class="o">=</span> <span class="nx">accumulator</span> <span class="o">+</span> <span class="nx">currentresult</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">`</span><span class="p">${</span><span class="nx">accumulator</span><span class="p">}</span><span class="s2"> + </span><span class="p">${</span><span class="nx">currentValue</span><span class="p">}</span><span class="s2"> = </span><span class="p">${</span><span class="nx">result</span><span class="p">}</span><span class="s2">`</span><span class="p">)</span>
+  <span class="k">return</span> <span class="nx">result</span>
+<span class="p">},</span> <span class="mi">5</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Pronto, agora você tem uma contagem que inicia a partir de 5. E, também, já sabe como trabalhar com reduce.</p>
+
+<p>Lembrando que o <code class="language-plaintext highlighter-rouge">reduce()</code> é um caso complexo. Tem gente que não entende sua necessidade de jeito nenhum. Eu recomendo que se ainda restarem dúvidas, você acesse os três links que estarão da descrição.</p>
+
+<p>O primeiro é um post do Raul Esteves, <a href="https://medium.com/@raullesteves/javascript-entendendo-o-reduce-de-uma-vez-por-todas-c4cbaa16e380">“Entendendo o reduce() de uma vez por todas”</a> onde ele explica o método passo a passo, achei muito bom.</p>
+
+<p>O segundo é a <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce">documentação do reduce no MDN</a>.</p>
+
+<p>O terceiro, por fim, é um vídeo do Wes Doyle: <a href="https://www.youtube.com/watch?v=CXxVjQ1VTEo">“Javascript Reduce by Example”</a>, que é um live coding resumido muito bom também.</p>
+
+<p>É isso. Espero que agora você já saiba como manipular arrays da melhor forma, com JavaScript.</p>
+
+<h3 id="arrow-function">Arrow function</h3>
+
+<p>Nossa, achei que não ia chegar nunca nesse assunto. Mas deixei ele mais pro final, pois eu queria que você, que não conhece as <em>Arrow functions</em> ficasse impressionado com o poder que elas têm sobre a legibilidade e manutebilidade do código.</p>
+
+<p>Claro que <em>Arrow functions</em> não se resumem em deixar o código mais legível, existe uma finalidade (muito importante) por trás dela, e é nessa aula que você vai descobrir.</p>
+
+<h4 id="syntax">Syntax</h4>
+
+<p>A sintaxe das arrow functions é muito simples.</p>
+
+<p>No JavaScript <em>oldschool</em>, você declarava funções através da keyword <code class="language-plaintext highlighter-rouge">function</code>:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">myCommonFunction</span> <span class="p">()</span> <span class="p">{</span>
+	<span class="c1">// do my stuff</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Você podia, também, definir que o valor de uma variável recebe uma função.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">myCommonFunction</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+	<span class="c1">// do my stuff</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Com a chegada das <em>Arrow functions</em>, você pode fazer a mesma coisa.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">myArrowFuncion</span> <span class="o">=</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+	<span class="c1">// do my stuff</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Percebe que apenas removemos a chave <code class="language-plaintext highlighter-rouge">function</code> e acrescentamos o <code class="language-plaintext highlighter-rouge">=&gt;</code>? Daí o nome <em>Arrow functions</em>.</p>
+
+<p>Mas calma. A mágica das <em>Arrows functions</em> ainda está por vir.</p>
+
+<p>Imagine que você tem uma função que retorna algum valor, por exemplo, uma ternária. Antes das <em>Arrow functions</em> você tinha isso:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">myCommonFunction</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">condition</span><span class="p">)</span> <span class="p">{</span>
+	<span class="k">return</span> <span class="nx">condition</span>
+		<span class="p">?</span> <span class="dl">'</span><span class="s1">foo</span><span class="dl">'</span>
+		<span class="p">:</span> <span class="dl">'</span><span class="s1">bar</span><span class="dl">'</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>E se você pudesse resumir isso em, digamos 1 linha? Bom, na verdade, você pode. Com arrow functions.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">myArrowFuncion</span> <span class="o">=</span> <span class="nx">condition</span> <span class="o">=&gt;</span> <span class="nx">condition</span> <span class="p">?</span> <span class="dl">'</span><span class="s1">foo</span><span class="dl">'</span> <span class="p">:</span> <span class="dl">'</span><span class="s1">bar</span><span class="dl">'</span> 
+</code></pre></div></div>
+
+<p>Isso acontece por que o interpretador permite que você retorne expressões diretamente após o <code class="language-plaintext highlighter-rouge">=&gt;</code>. Vai falar que isso não é demais?</p>
+
+<p>Você também pode retornar objetos e arrays diretamente, mas com uma peculiaridade: deve colocar entre parênteses:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">updateUser</span> <span class="o">=</span> <span class="p">(</span><span class="nx">newProps</span><span class="p">,</span> <span class="nx">user</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">({</span> <span class="p">...</span><span class="nx">user</span><span class="p">,</span> <span class="p">...</span><span class="nx">newProps</span> <span class="p">})</span> 
+</code></pre></div></div>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">addFruit</span> <span class="o">=</span> <span class="p">(</span><span class="nx">newFruit</span><span class="p">,</span> <span class="nx">fruits</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">([</span> <span class="p">...</span><span class="nx">fruits</span><span class="p">,</span> <span class="nx">newFruit</span> <span class="p">])</span> 
+</code></pre></div></div>
+
+<p>Juntamos o <em>Spread operator</em> com <em>Arrow functions</em>.</p>
+
+<p>Mas calma, não para por aí. Agora vamos ao real sentido das <em>Arrow functions</em>, a permanência do contexto.</p>
+
+<p>Como você já sabe, ou, ao menos, deveria saber, no JavaScript existe uma chave reservada <code class="language-plaintext highlighter-rouge">this</code> que se refere ao contexto a qual está sendo executado.</p>
+
+<p>Funções geram um novo valor para o this, e isso é um problema, especialmente em casos de callbacks. Vamos demosntrar o problema:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">Person</span><span class="p">()</span> <span class="p">{</span>
+  <span class="k">this</span><span class="p">.</span><span class="nx">age</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+
+  <span class="nx">setInterval</span><span class="p">(</span><span class="kd">function</span> <span class="nx">growUp</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">age</span><span class="o">++</span><span class="p">;</span>
+  <span class="p">},</span> <span class="mi">1000</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kd">var</span> <span class="nx">p</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Person</span><span class="p">();</span>
+</code></pre></div></div>
+
+<p>No exemplo, o construtor de Person() define o valor de <code class="language-plaintext highlighter-rouge">this</code> como a própria instância. Já dentro da função que é executada como callback do setInterval, o valor de this já não é o mesmo, pois ele agora recebe um novo valor. No caso, em modo não estrito, o valor de <code class="language-plaintext highlighter-rouge">this</code> será o objeto <em>global</em>, que é onde growUp foi executado.</p>
+
+<p>Isso significa que, para obtermos acesso valor de <code class="language-plaintext highlighter-rouge">this</code> definido pelo construtor, precisávamos alocar em uma variável e acessar por meio dela.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">Person</span><span class="p">()</span> <span class="p">{</span>
+  <span class="k">this</span><span class="p">.</span><span class="nx">age</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+
+	<span class="kd">const</span> <span class="nb">self</span> <span class="o">=</span> <span class="k">this</span>
+
+  <span class="nx">setInterval</span><span class="p">(</span><span class="kd">function</span> <span class="nx">growUp</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nb">self</span><span class="p">.</span><span class="nx">age</span><span class="o">++</span><span class="p">;</span>
+  <span class="p">},</span> <span class="mi">1000</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kd">var</span> <span class="nx">p</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Person</span><span class="p">();</span>
+</code></pre></div></div>
+
+<p>Ou usamos uma <em>Arrow function</em>. :)</p>
+
+<p>Arrow functions não recriam o valor de <code class="language-plaintext highlighter-rouge">this</code>, elas mantém o valor do executor.</p>
+
+<p>O problema inicial do exemplo poderia ser resolvido apenas com uma <em>Arrow function</em>:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">Person</span><span class="p">()</span> <span class="p">{</span>
+  <span class="k">this</span><span class="p">.</span><span class="nx">age</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+  <span class="nx">setInterval</span><span class="p">(()</span> <span class="o">=&gt;</span> <span class="k">this</span><span class="p">.</span><span class="nx">age</span><span class="o">++</span><span class="p">,</span> <span class="mi">1000</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kd">var</span> <span class="nx">p</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Person</span><span class="p">();</span>
+</code></pre></div></div>
+
+<p>Você vai ver muito o uso de <em>Arrow functions</em> em tudo quanto é lugar ou framework. Então vou deixar outras referências:</p>
+
+<ul>
+  <li><a href="https://www.youtube.com/watch?v=gigtS_5KOqo">Fireship: Functions - What’s your function? (inglês)</a></li>
+  <li></li>
+</ul>
+
+<h3 id="destructuring">Destructuring</h3>
+
+<p>Destructuring é uma técnica simples, que vai te ajudar na produtividade com JavaScript.</p>
+
+<p>Ela consiste em fazer o assign de variáveis com base em objetos ou arrays, de forma simples, como se você estivesse, realmente, desconstruindo o objeto.</p>
+
+<p>Digamos que eu queira criar duas variáveis com o valor originial do meu objeto. Eu posso fazer isso criando meu objeto, depois criando quantas variáveis eu quiser capturando o valor das propriedades do meu objeto:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">original</span> <span class="o">=</span> <span class="p">{</span> <span class="na">a</span><span class="p">:</span> <span class="dl">'</span><span class="s1">foo</span><span class="dl">'</span><span class="p">,</span> <span class="na">b</span><span class="p">:</span> <span class="dl">'</span><span class="s1">bar</span><span class="dl">'</span> <span class="p">}</span>
+
+<span class="kd">const</span> <span class="nx">a</span> <span class="o">=</span> <span class="nx">original</span><span class="p">.</span><span class="nx">a</span> <span class="c1">// =&gt; 'foo'</span>
+<span class="kd">const</span> <span class="nx">b</span> <span class="o">=</span> <span class="nx">original</span><span class="p">.</span><span class="nx">b</span> <span class="c1">// =&gt; 'bar'</span>
+</code></pre></div></div>
+
+<p>O que funciona de boa. Mas, imagina se eu tenho uma outra propriedade, <code class="language-plaintext highlighter-rouge">c</code>, que será adicionada. Vou ter mais uma linha de código que faz o mesmo trabalho, e assim sucessivamente para todo e qualquer item que eu queira capturar.</p>
+
+<p>Ou eu posso declarar essas constantes usando destructuring, que é muito mais simples.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">original</span> <span class="o">=</span> <span class="p">{</span> <span class="na">a</span><span class="p">:</span> <span class="dl">'</span><span class="s1">foo</span><span class="dl">'</span><span class="p">,</span> <span class="na">b</span><span class="p">:</span> <span class="dl">'</span><span class="s1">bar</span><span class="dl">'</span> <span class="p">}</span>
+
+<span class="kd">const</span> <span class="p">{</span> <span class="nx">a</span><span class="p">,</span> <span class="nx">b</span> <span class="p">}</span> <span class="o">=</span> <span class="nx">original</span>
+</code></pre></div></div>
+
+<p>Dessa forma eu criei duas constantes, <code class="language-plaintext highlighter-rouge">a</code> e <code class="language-plaintext highlighter-rouge">b</code>, que recebem o valor das mesmas propriedades no objeto <code class="language-plaintext highlighter-rouge">orginial</code>, surtindo o mesmo efeito da linha anterior, mas, dessa vez, de forma resumida.</p>
+
+<p>Eu também posso renomear as variáveis, basta dizer o novo nome de cada uma após os dois pontos.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">axis</span> <span class="o">=</span> <span class="p">{</span> <span class="na">x</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span> <span class="na">y</span><span class="p">:</span> <span class="mi">3</span> <span class="p">}</span>
+
+<span class="kd">const</span> <span class="p">{</span> <span class="na">x</span><span class="p">:</span> <span class="nx">xAxis</span><span class="p">,</span> <span class="na">y</span><span class="p">:</span> <span class="nx">yAxis</span> <span class="p">}</span> <span class="o">=</span> <span class="nx">axis</span>
+
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">x</span><span class="p">,</span> <span class="nx">y</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Existe uma outra técnica chamada deep destructuring, que permite a busca de propriedades aninhadas em árvores complexas de objetos.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">tree</span> <span class="o">=</span> <span class="p">{</span>
+	<span class="na">very</span><span class="p">:</span> <span class="p">{</span>
+		<span class="na">deep</span><span class="p">:</span> <span class="p">{</span>
+			<span class="na">prop</span><span class="p">:</span> <span class="dl">'</span><span class="s1">foo</span><span class="dl">'</span>
+		<span class="p">}</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+
+<span class="kd">const</span> <span class="p">{</span> <span class="na">very</span><span class="p">:</span> <span class="p">{</span> <span class="na">deep</span><span class="p">:</span> <span class="p">{</span> <span class="nx">prop</span> <span class="p">}</span> <span class="p">}</span> <span class="p">}</span> <span class="o">=</span> <span class="nx">tree</span>
+
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">prop</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>No caso, <code class="language-plaintext highlighter-rouge">very</code> e <code class="language-plaintext highlighter-rouge">deep</code> não serão asignadas, elas servem apenas para o mapeamento.</p>
+
+<p>Se tentar acessar elas, provavelmente vai receber um <em>ReferenceError</em>.</p>
+
+<p>Outro ótimo caso de uso do destructuring é quando você vai receber um objeto gerérico como parâmetro de uma função, mas precisa apenas de algumas propriedades dele.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">genericPersonObject</span> <span class="o">=</span> <span class="p">{</span>
+	<span class="na">name</span><span class="p">:</span> <span class="dl">'</span><span class="s1">Daniel</span><span class="dl">'</span><span class="p">,</span>
+	<span class="na">age</span><span class="p">:</span> <span class="mi">20</span><span class="p">,</span>
+	<span class="na">contact</span><span class="p">:</span> <span class="p">{</span>
+		<span class="na">mail</span><span class="p">:</span> <span class="dl">'</span><span class="s1">contato@danielbonifacio.com.br</span><span class="dl">'</span><span class="p">,</span>
+		<span class="na">phone</span><span class="p">:</span> <span class="dl">'</span><span class="s1">27992699969</span><span class="dl">'</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+
+<span class="kd">const</span> <span class="nx">fooFunction</span> <span class="o">=</span> <span class="p">({</span> <span class="nx">name</span><span class="p">,</span> <span class="nx">age</span><span class="p">,</span> <span class="na">contact</span><span class="p">:</span> <span class="p">{</span> <span class="nx">mail</span> <span class="p">}</span> <span class="p">})</span> <span class="o">=&gt;</span> <span class="p">{</span>
+	<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">name</span><span class="p">,</span> <span class="nx">age</span><span class="p">,</span> <span class="nx">mail</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Eu somente precisava das propriedades <code class="language-plaintext highlighter-rouge">name</code>, <code class="language-plaintext highlighter-rouge">age</code> e <code class="language-plaintext highlighter-rouge">contact.mail</code> do meu objeto, então desestruturei ele.</p>
+
+<p>Caso as propriedades não sejam encontradas no objeto, o valor do parâmetro será <code class="language-plaintext highlighter-rouge">undefined</code>.</p>
+
+<h4 id="destructuring-in-arrays">Destructuring in arrays</h4>
+
+<p>Destructuring não acontece somente com objetos, você também pode desestruturar objetos, levando em consideração que chaves de arrays são os índices.</p>
+
+<p>Vamos dizer que você receba um array com 3 parâmetros diferentes, que é muito comum em criação de CLIs, por exemplo. Dentro do código, para não se perder, uma boa alternativa seria nomear eles em variáveis.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">fooFunction</span> <span class="o">=</span> <span class="nx">service</span> <span class="o">=&gt;</span> <span class="p">{</span>
+	<span class="kd">const</span> <span class="nx">name</span> <span class="o">=</span> <span class="nx">service</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+	<span class="kd">const</span> <span class="nx">url</span> <span class="o">=</span> <span class="nx">service</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+	<span class="kd">const</span> <span class="nx">generateDefinitions</span> <span class="o">=</span> <span class="nx">service</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+
+	<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">name</span><span class="p">,</span> <span class="nx">url</span><span class="p">,</span> <span class="nx">generateDefinitions</span><span class="p">)</span>
+<span class="p">}</span>
+
+<span class="nx">fooFunction</span><span class="p">([</span><span class="dl">'</span><span class="s1">PetStore</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">https://petstore.swagger.io/</span><span class="dl">'</span><span class="p">,</span> <span class="kc">true</span><span class="p">])</span>
+</code></pre></div></div>
+
+<p>Bom, você pode fazer isso de forma mais simples com destructuring.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">fooFunction</span> <span class="o">=</span> <span class="nx">service</span> <span class="o">=&gt;</span> <span class="p">{</span>
+	<span class="kd">const</span> <span class="p">[</span><span class="nx">name</span><span class="p">,</span> <span class="nx">url</span><span class="p">,</span> <span class="nx">generateDefinitions</span><span class="p">]</span> <span class="o">=</span> <span class="nx">service</span>
+
+	<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">name</span><span class="p">,</span> <span class="nx">url</span><span class="p">,</span> <span class="nx">generateDefinitions</span><span class="p">)</span>
+<span class="p">}</span>
+
+<span class="nx">fooFunction</span><span class="p">([</span><span class="dl">'</span><span class="s1">PetStore</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">https://petstore.swagger.io/</span><span class="dl">'</span><span class="p">,</span> <span class="kc">true</span><span class="p">])</span>
+</code></pre></div></div>
+
+<p>Lembra do <em>Spread operator</em>? Então, você pode combinar ele com o destructuring, e receber o resto dos argumentos em um array.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">fooFunction</span> <span class="o">=</span> <span class="nx">service</span> <span class="o">=&gt;</span> <span class="p">{</span>
+	<span class="kd">const</span> <span class="p">[</span><span class="nx">name</span><span class="p">,</span> <span class="nx">url</span><span class="p">,</span> <span class="nx">generateDefinitions</span><span class="p">,</span> <span class="p">...</span><span class="nx">rest</span><span class="p">]</span> <span class="o">=</span> <span class="nx">service</span>
+
+	<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">name</span><span class="p">,</span> <span class="nx">url</span><span class="p">,</span> <span class="nx">generateDefinitions</span><span class="p">,</span> <span class="nx">rest</span><span class="p">)</span>
+<span class="p">}</span>
+
+<span class="nx">fooFunction</span><span class="p">([</span><span class="dl">'</span><span class="s1">PetStore</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">https://petstore.swagger.io/</span><span class="dl">'</span><span class="p">,</span> <span class="kc">true</span><span class="p">,</span> <span class="dl">'</span><span class="s1">foo</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">bar</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">baz</span><span class="dl">'</span><span class="p">])</span>
+</code></pre></div></div>
+
+<p>Pronto, agora você já sabe destructuring. Esse era o último item da lista essencial de JavaScript antes dos frameworks.</p>
+
+<p>Agora você está pronto para desbravar todos os frameworks e trabalhar com JavaScript em qualquer stack que sentir vontade.</p>
+
+<p>Essa mini-série foi criada por um jovem apaixonado por tecnologia. Eu, Daniel Bonifacio.</p>
+
+<p>Estou muito feliz que você tenha assistido a todos os vídeos, e mais feliz ainda em saber que você escolheu aprender JavaScript, que é a linguagem que eu amo.</p>
+
+<p>Não se esqueça que os vídeos não param por aqui, ainda temos muito a desbravar, por isso, se inscreva no meu canal, dê um joinha</p>
+
+
+            <h2 class="more-articles">Mais artigos</h2>
+            <ul class="post-minimal-list">
+              
+                <li class="post">
+                  <a href="/como-estudar-programacao">Como estudar programação?</a>
+                </li>
+              
+                <li class="post">
+                  <a href="/o-que-e-programacao">O que é programação?</a>
+                </li>
+              
+                <li class="post">
+                  <a href="/react-moderno-o-que-voce-precisa-saber-para-comecar-com-react-em-2021">React moderno: O que você precisa saber para começar com React em 2020</a>
+                </li>
+              
+                <li class="post">
+                  <a href="/javascript-antes-dos-frameworks">JavaScript antes de qualquer framework</a>
+                </li>
+              
+            </ul>
+            <div style="margin-bottom: 120px">
+
+            </div>
+          </div>
+        </article>
+      </main>
+    </div>
+  </body>
+</html>

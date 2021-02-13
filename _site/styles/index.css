@@ -1,0 +1,16 @@
+@import "./reset.css";
+@import "./page-structure.css";
+@import "./sidebar.css";
+@import "./post-list.css";
+@import "./post.css";
+@import "./pygment-theme.css";
+
+:root {
+  --primary: #454851;
+}
+
+@media only screen and (max-width: 600px) {
+  .body {
+    grid-template-columns: 1fr;
+  }
+}

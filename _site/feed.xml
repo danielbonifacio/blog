@@ -1,0 +1,1494 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-02-13T03:49:26-03:00</updated><id>/feed.xml</id><entry><title type="html">Como estudar programação?</title><link href="/como-estudar-programacao" rel="alternate" type="text/html" title="Como estudar programação?" /><published>2021-01-30T00:00:00-03:00</published><updated>2021-01-30T00:00:00-03:00</updated><id>/como-estudar-programacao</id><content type="html" xml:base="/como-estudar-programacao">&lt;p&gt;O interesse por programação está aumentando muito nos últimos meses, e, como um profissional da área há mais de 8 anos, resolvi escrever este artigo passando algumas dicas sobre como estudar programação da forma que eu julgo mais eficiente.&lt;/p&gt;
+
+&lt;p&gt;Como você já deve ter lido no meu artigo &lt;a href=&quot;/o-que-e-programacao&quot;&gt;“O que é programação?”&lt;/a&gt;, existem diversas plataformas onde programar. Desde sites e aplicativos, até jogos ou mesmo relógios e calculadoras. A programação está presente em praticamente tudo que é digital.&lt;/p&gt;
+
+&lt;p&gt;E isso nos leva ao primeiro tópico:&lt;/p&gt;
+
+&lt;h2 id=&quot;1-escolha-a-área-onde-você-quer-programar&quot;&gt;1. Escolha a área onde você quer programar&lt;/h2&gt;
+
+&lt;p&gt;Essa pode ser a decisão mais fácil ou a mais difícil que você vai tomar. É 8 ou 80. Se você já sabe exatamente o que quer fazer, isso é um grande avanço. Significa que você está interessado no produto final, e isso é o mínimo que se espera do programador que desenvolve um produto.&lt;/p&gt;
+
+&lt;p&gt;E se você não sabe ainda em qual área você quer atuar, recomendo fortemente que você leia meu argito &lt;a href=&quot;#&quot;&gt;“Como escolher em qual área da programação atuar?”&lt;/a&gt;. Nesse artigo eu te explico como saber em que direção você deve ir.&lt;/p&gt;
+
+&lt;h2 id=&quot;2-entenda-quais-as-necessidades-do-mercado-onde-você-quer-atuar&quot;&gt;2. Entenda quais as necessidades do mercado onde você quer atuar&lt;/h2&gt;
+
+&lt;p&gt;Essa tarefa é a mais legal, no meu ponto de vista. Está na hora de você analisar o produto final, só que da perspectiva da empresa que está entregando esse produto.&lt;/p&gt;
+
+&lt;p&gt;Quais são as funcionalidades do produto? Qual a funcionalidade primordial desse produto? Como a empresa lucra com esse produto? Quais são as limitações deste produto?&lt;/p&gt;
+
+&lt;p&gt;E nesse momento, você pode até estar se perguntando “Por que identificar isso antes de aprender programação?”. Porque você vai ter noção do que é necessário para desenvolver um projeto, por mais simples que ele pareça.&lt;/p&gt;
+
+&lt;p&gt;#1&lt;/p&gt;
+
+&lt;p&gt;Vamos exercitar isso, analisando alguns produtos aqui.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Uma calculadora:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Uma calculadora parece o item mais simples de todos, não é? Mas vamos entender como ela funciona.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Quais são as funcionalidades do produto?&lt;/strong&gt;
+R: Realizar operações matemáticas de baixo nível (soma, adição, subtração, multiplicação, elevação e porcentagem).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Qual a funcionalidade primordial desse produto?&lt;/strong&gt;
+R: Entregar o resultado da operação inserida pelo usuário.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Como a empresa lucra com esse produto?&lt;/strong&gt;
+R: Venda do produto físico.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Como o produto chega até o consumidor?&lt;/strong&gt;
+R: A empresa fabrica a carcaça, insere a programação (instruções matemáticas) na “placa mãe” da calculadora e vende o produto pronto.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Uma rede social:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Quais são as funcionalidades do produto?&lt;/strong&gt;
+R: Curtidas, comentários, compartilhamento, envio de fotos de perfil, anúncios, etc.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Qual a funcionalidade primordial desse produto?&lt;/strong&gt;
+R: Socializar, independente da localização geográfica.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Como a empresa lucra com esse produto?&lt;/strong&gt;
+R: Anúncios direcionados e venda de dados dos usuários.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Como o produto chega até o consumidor?&lt;/strong&gt;
+R: A empresa programa as funcionalidades da rede social, publica a rede social em um servidor (na nuvem) e os usuários acessam e se cadastram.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;3-entenda-até-onde-a-programação-se-encontra-no-projeto&quot;&gt;3. Entenda até onde a programação se encontra no projeto&lt;/h2&gt;
+
+&lt;p&gt;Em produtos 100% digitais, como redes sociais, blogs, sites, etc. a programação estará presente em praticamente todo o processo.&lt;/p&gt;
+
+&lt;p&gt;Alguém precisa desenvolver as funcionalidades, testar elas e também publicar as nova funcionalidades frequentemente.&lt;/p&gt;
+
+&lt;p&gt;Em produtos físicos, como é o caso da calculadora, a programação termina logo após ser inserida no chip.&lt;/p&gt;
+
+&lt;h2 id=&quot;4-trace-um-plano-de-estudo&quot;&gt;4. Trace um plano de estudo&lt;/h2&gt;
+
+&lt;p&gt;Essa etapa depende muito do que você vai programar. Eu não tenho domínio sobre todas as áreas da programação. Talvez você já saiba que eu sou programador da área de Web, mas, por diversão, já programei em algumas outras áreas (jogos e arduino).&lt;/p&gt;
+
+&lt;p&gt;Um programador nunca para de estudar, ele está constantemente se atualizando e melhorando seu código. Então, você pode definir metas para o seu plano de estudo. O importante é você dar o primeiro passo! Seu plano de estudo pode ser embasado, por exemplo, na execução de um projeto.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dica de ouro:&lt;/strong&gt; nesse primeiro instante, sonhe alto. Desafie-se.&lt;/p&gt;
+
+&lt;p&gt;Se você quer fazer uma calculadora, que tal criar uma função que calcula o resultado de uma equação de segundo grau? Se quer fazer um site, que tal já começar com um site interativo, por exemplo? Se quer criar um jogo, tente criar um jogo que aplique conceitos da física! O importante é se desafiar a criar algo realmente bom!&lt;/p&gt;
+
+&lt;p&gt;Então, agora, está na hora de criar um roteiro para estudo. Você vai precisar pesquisar melhor para isso.&lt;/p&gt;
+
+&lt;p&gt;Seu roteiro vai ter que se basear nas seguintes ocasiões:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Quais linguagens de programação são necessárias para desenvolver meu projeto?&lt;/li&gt;
+  &lt;li&gt;Quais softwares eu preciso ter instalados na minha máquina para poder começar a desenvolver?&lt;/li&gt;
+  &lt;li&gt;Existe algum curso &lt;strong&gt;gratuito&lt;/strong&gt; (explico o motivo da importância desse ponto já já) disponível?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Vou dar um exemplo de respostas para a programação voltada para a web.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;HTML, CSS e JavaScript;&lt;/li&gt;
+  &lt;li&gt;Algum editor de texto (Visual Studio Code, Sublime Text, etc.);&lt;/li&gt;
+  &lt;li&gt;Aos montes, no YouTube mesmo.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Então, meu plano de estudo para desenvolver uma página web interativa (um feed, onde alguém pode curtir um post), em resumo é esse:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Aprender HTML&lt;/li&gt;
+  &lt;li&gt;Aprender CSS&lt;/li&gt;
+  &lt;li&gt;PROJETO - Criar a estrutura da interface do projeto&lt;/li&gt;
+  &lt;li&gt;Aprender JavaScript
+    &lt;ul&gt;
+      &lt;li&gt;Antes, é necessário aprender lógica de programação (algoritmos)&lt;/li&gt;
+      &lt;li&gt;Aplicar algoritmos em JavaScript&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;PROJETO - Criar um botão de curtida interativo&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Esse é um &lt;strong&gt;rascunho&lt;/strong&gt; do plano de estudo, obviamente. Mas viu como já te da uma direção?&lt;/p&gt;
+
+&lt;h3 id=&quot;a-importância-dos-conteúdos-gratuitos&quot;&gt;A importância dos conteúdos gratuitos&lt;/h3&gt;
+
+&lt;p&gt;Vou ser direto e reto. Ninguém caga dinheiro. E, especialmente na área da programação, existem diversas pessoas (como eu, por exemplo) que publicam mini-cursos gratuitos na internet, pois sabemos que a área precisa de profissionais e queremos ajudar as pessoas.&lt;/p&gt;
+
+&lt;p&gt;Então, &lt;strong&gt;antes&lt;/strong&gt; de você desembolsar um valor considerável em um curso, é interessante que você ao menos veja como é executar aquela tarefa. Porque, na grande maioria das vezes, desenvolvimento não é nada parecido com o que você pensa.&lt;/p&gt;
+
+&lt;p&gt;Exemplo em vídeo de como as pessoas acham que é programação vs. como realmente é:&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/HluANRwPyNo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Não é algo de outro mundo. É dizer pro computador seguir instruções. Só isso. Não vai hackear a NASA. Eu te garanto que você não vai.&lt;/p&gt;
+
+&lt;p&gt;E é exatamente por esse motivo que você deve se interessar pelo seu produto final, pois é ele quem vai motivar você a escrever centenas de milhares de linhas de códigos.&lt;/p&gt;
+
+&lt;h2 id=&quot;5-tenha-contato-com-programadores&quot;&gt;5. Tenha contato com programadores&lt;/h2&gt;
+
+&lt;p&gt;Eu comecei a programar com nove anos de idade, mas minha vida profissional veio mesmo aos 14 anos. Dos 15 aos meus 18, eu vivia no meu quarto programando igual um louco e criando sistemas incríveis, e automações pro meu dia-a-dia que eu julgava sensacionais.&lt;/p&gt;
+
+&lt;p&gt;Até que um dia eu comecei a conversar e interagir com outros programadores e eu percebi que tudo que eu tinha feito, já tinha sido feito antes e disponibilizado de forma open source (gratuita com código aberto) na internet. Eu estava reinventando a roda.&lt;/p&gt;
+
+&lt;p&gt;E, por mais que desenvolver minhas próprias soluções me trouxe bastante conhecimento e experiência, emprego mesmo que era bom, nada.&lt;/p&gt;
+
+&lt;p&gt;Só depois que eu me conectei com outros programadores (por meio de grupos no facebook) que eu consegui entender que a programação estava muito além do que eu fazia no meu quarto sozinho, e que existiam diversas ferramentas para praticamente tudo.&lt;/p&gt;
+
+&lt;p&gt;E por quê eu tô compartilhando essa experiência com você? Porque eu quero que você comece a interagir com outros programadores nesse exato momento.&lt;/p&gt;
+
+&lt;p&gt;Mesmo que você seja introvertido, cara, cê já leu quase um ebook meu aqui, agora, já deu pra quebrar o gelo entre a gente. Me chama lá no Instagram &lt;a href=&quot;https://instagram.com/danielbonifacio.dev&quot;&gt;(clica aqui)&lt;/a&gt; e me fala sobre o que você decidiu começar a programar. Eu vou ficar muito feliz em saber sobre isso. Mas faz isso agora mesmo. Eu te garanto que vou te responder lá.&lt;/p&gt;</content><author><name>Daniel Bonifacio</name></author><summary type="html">O interesse por programação está aumentando muito nos últimos meses, e, como um profissional da área há mais de 8 anos, resolvi escrever este artigo passando algumas dicas sobre como estudar programação da forma que eu julgo mais eficiente.</summary></entry><entry><title type="html">O que é programação?</title><link href="/o-que-e-programacao" rel="alternate" type="text/html" title="O que é programação?" /><published>2021-01-29T00:00:00-03:00</published><updated>2021-01-29T00:00:00-03:00</updated><id>/o-que-e-programacao</id><content type="html" xml:base="/o-que-e-programacao">&lt;p&gt;Nos últimos meses, têm-se ouvido muito falar sobre “programação” e a carreira de programador. E o assunto interessa muita gente, especialmente quando falam dos salários de programadores, que são, digamos assim, acima da média.&lt;/p&gt;
+
+&lt;p&gt;Mas, afinal, o que é um “programador”? O que ele exatamente faz e como isso pode render tanto dinheiro? Esse artigo explicará exatamente a essa pergunta.&lt;/p&gt;
+
+&lt;h2 id=&quot;o-que-é-a-programação&quot;&gt;O que é a programação?&lt;/h2&gt;
+
+&lt;p&gt;Esse blog que você está lendo agora, em algum momento precisou ser programado (nesse caso, por mim mesmo, Daniel Bonifacio). A barra lateral, a disposição dos elementos, meu nome, minhas redes sociais e até o tamanho e cor das fontes e elementos que estão formando toda esta página.&lt;/p&gt;
+
+&lt;p&gt;E eu programei tudo isso utilizando tecnologias da web (HTML e CSS).&lt;/p&gt;
+
+&lt;p&gt;Então, você pode assumir que programar algo é o ato de, por meio de linhas de código, desenvolver uma solução. A programação é uma sequência de instruções que o programador passa para a máquina, que então, as executa. A essa sequência de instruções, podemos chamar de programa.&lt;/p&gt;
+
+&lt;h2 id=&quot;o-que-é-possível-fazer-com-a-programação&quot;&gt;O que é possível fazer com a programação?&lt;/h2&gt;
+
+&lt;p&gt;Basicamente, tudo que envolve o mundo digital. Alguns exemplos de coisas que podemos programar:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Blogs&lt;/li&gt;
+  &lt;li&gt;Sites de todos os tipos (notícias, redes sociais, etc.)&lt;/li&gt;
+  &lt;li&gt;Sistemas (internet banking, sistema interno da sua empresa, erps, etc.)&lt;/li&gt;
+  &lt;li&gt;Aplicativos de todos os tipos (notícias, entretenimento, ferramentas)&lt;/li&gt;
+  &lt;li&gt;Jogos (para computador, video-games, celulares, etc.)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Mas não se limita por aí… A programação envolve bastante coisa que você, talvez, nem imagina. O seu relógio digital, por exemplo, precisou ser programado. O sistema operacional do seu computador (Windows, macOS ou Linux) também precisou ser programado. Até a calculadora que você usa nas aulas de matemática, precisou ser programada.&lt;/p&gt;
+
+&lt;p&gt;Toda automatização digital que temos hoje, precisou, um dia, de ser programada por alguém.&lt;/p&gt;
+
+&lt;h2 id=&quot;como-me-tornar-um-programador&quot;&gt;Como me tornar um programador?&lt;/h2&gt;
+
+&lt;p&gt;Ao contrário do que muitas pessoas pensam, para se tornar um programador, você não precisa fazer faculdade. Eu mesmo não fiz faculdade, e estou há 8 anos trabalhando com programação.&lt;/p&gt;
+
+&lt;p&gt;Para se tornar um programador, você precisa de disciplina, dedicação e, acima de tudo, interesse pela área. Não basta ficar de olho no salário alto, se você não tem disciplina para manter uma rotina de estudos e nem dedicação no que está estudando, pois o sucesso será incerto.&lt;/p&gt;
+
+&lt;p&gt;Um programador iniciante, chega a ganhar até &lt;strong&gt;R$4.000,00&lt;/strong&gt; por mês (média retirada de São Paulo, SP). Mas por quê empresas pagam tanto em um profissional com pouca experiência:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Poucos profissionais disponíveis;&lt;/li&gt;
+  &lt;li&gt;Um programador, por mais que pouco experiente, consegue desempenhar funções específicas que geram lucro para empresas;&lt;/li&gt;
+  &lt;li&gt;O mundo digital está cada vez maior, e é a lei de oferta e demanda.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;por-onde-começar-a-estudar-programação&quot;&gt;Por onde começar a estudar programação?&lt;/h2&gt;
+
+&lt;p&gt;Esse tópico é bastante amplo, então eu escrevi o artigo &lt;a href=&quot;/como-estudar-programacao&quot;&gt;“Como estudar programação?”&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Estou escrevendo um artigo nesse exato momento sobre exatamente este assunto. Volte em breve neste artigo (ou se inscreva no &lt;a href=&quot;https://youtube.com/particaonerd&quot;&gt;meu canal no youtube&lt;/a&gt;) para acessar ao artigo.&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>Daniel Bonifacio</name></author><summary type="html">Nos últimos meses, têm-se ouvido muito falar sobre “programação” e a carreira de programador. E o assunto interessa muita gente, especialmente quando falam dos salários de programadores, que são, digamos assim, acima da média.</summary></entry><entry><title type="html">React moderno: O que você precisa saber para começar com React em 2020</title><link href="/react-moderno-o-que-voce-precisa-saber-para-comecar-com-react-em-2021" rel="alternate" type="text/html" title="React moderno: O que você precisa saber para começar com React em 2020" /><published>2020-06-11T00:00:00-03:00</published><updated>2020-06-11T00:00:00-03:00</updated><id>/react-moderno-o-que-voce-precisa-saber-para-comecar-com-react-em-2021</id><content type="html" xml:base="/react-moderno-o-que-voce-precisa-saber-para-comecar-com-react-em-2021">&lt;p&gt;Não é de hoje que o React.js é o queridinho das empresas de desenvolvimento de software quando se fala em mobile e front-end web, e isso fez com que surgissem inúmeras vagas relacionadas à tecnologia.&lt;/p&gt;
+
+&lt;p&gt;Mas nem todo profissional ou iniciante da área de desenvolvimento tem domínio da linguagem de programação JavaScript (que é a base do React.js), e acabam com medo de iniciar com a tecnologia.&lt;/p&gt;
+
+&lt;p&gt;Se você é um deles, seus problemas acabaram agora. Neste artigo vamos abordar &lt;strong&gt;tudo que você precisa saber sobre React&lt;/strong&gt;, sem a necessidade de muito conhecimento em JavaScript.&lt;/p&gt;
+
+&lt;h2 id=&quot;índice&quot;&gt;Índice&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;O que é React.js
+    &lt;ul&gt;
+      &lt;li&gt;Framework ou Biblioteca?&lt;/li&gt;
+      &lt;li&gt;Metodologia de componentes&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Como funcionam os componentes no React.js
+    &lt;ul&gt;
+      &lt;li&gt;Propriedades no componente React&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Como renderizar componentes React&lt;/li&gt;
+  &lt;li&gt;Virtual DOM&lt;/li&gt;
+  &lt;li&gt;Explicações finais
+    &lt;ul&gt;
+      &lt;li&gt;Por que não focamos mais em componentes baseados em classe?&lt;/li&gt;
+      &lt;li&gt;Por qual motivo temos que importar o pacote React antes utilizar JSX?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;o-que-é-o-reactjs&quot;&gt;O que é o React.js&lt;/h2&gt;
+
+&lt;p&gt;Não podemos pular essa parte de jeito nenhum! Para usar o React.js você precisa, antes de tudo, entender o que é e como funciona.&lt;/p&gt;
+
+&lt;p&gt;React.js é uma biblioteca de renderização de componentes. Simples assim.&lt;/p&gt;
+
+&lt;h3 id=&quot;framework-ou-biblioteca&quot;&gt;Framework ou Biblioteca?&lt;/h3&gt;
+
+&lt;p&gt;Esse é um questionamento muito comum, especialmente no caso do React.js. Antes de responder, vamos entender o que são frameworks e bibliotecas, respectivamente:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Framework é um conjunto de ferramentas gerais preparado para ajudar o desenvolvedor a criar aplicações, geralmente, robustas e com um nível de padronização e abstração um pouco maior que o desenvolvimento diretamente com a linguagem. Exemplos de frameworks no mercado: Laravel, Nest, Angular, etc.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Uma biblioteca é uma ferramenta especializada na resolução de um problema específico. Geralmente, bibliotecas são utilizadas dentro de frameworks.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Tendo isso em mente e sabendo o que o React.js faz, fica fácil de entender que ele é uma biblioteca de renderização de componentes.&lt;/p&gt;
+
+&lt;p&gt;Mas por que, geralmente, se referem à ele como framework? A resposta é simples: dificilmente utilizamos somente a biblioteca React.js nos projetos. Geralmente utilizamos outras bibliotecas, para resolvermos problemas comuns, como roteamento (React Router) e gerenciamento de estado (Redux).&lt;/p&gt;
+
+&lt;p&gt;O ponto é: o nome React se tornou mais que uma biblioteca, se tornou um ecossistema completo.&lt;/p&gt;
+
+&lt;h3 id=&quot;metodologia-de-componentes&quot;&gt;Metodologia de componentes&lt;/h3&gt;
+
+&lt;p&gt;A ideia de trabalhar com a &lt;strong&gt;metodologia de componentes&lt;/strong&gt; vem se tornado muito frequente no desenvolvimento, pois facilita muito na manutenção futura e reaproveitamento.&lt;/p&gt;
+
+&lt;p&gt;Componentes são baseados em 3 pontos:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;UI: elemento que será renderizado&lt;/li&gt;
+  &lt;li&gt;Props: propriedades que serão passadas ao componente por quem for utilizá-lo&lt;/li&gt;
+  &lt;li&gt;Estado: dados que aquele componente terá internamente&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Algumas vantagens de trabalhar com a metodologia de componentes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Componentes organizados em arquivos separados&lt;/li&gt;
+  &lt;li&gt;Componentes podem ser reutilizados em diversos lugares com estados isolados&lt;/li&gt;
+  &lt;li&gt;O mesmo componente pode ter variações para cada lugar onde é utilizado, através de propriedades&lt;/li&gt;
+  &lt;li&gt;Facilidade na hora de aplicar e dar manutenção em lógica de renderização (caso alguma propriedade seja &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;false&lt;/code&gt;, esconda tal parte da UI)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Então, concluímos que, atualmente, trabalhar com a metodologia de componentes é o que nos torna mais produtivos, e o React.js é a biblioteca que vai nos ajudar a concretizar isso de forma altamente performática e simples.&lt;/p&gt;
+
+&lt;h2 id=&quot;como-funcionam-os-componentes-no-reactjs&quot;&gt;Como funcionam os componentes no React.js&lt;/h2&gt;
+
+&lt;p&gt;Componentes no React são escritos em arquivos JavaScript comuns, através de uma extensão da linguagem chamada JSX. O JSX é, basicamente, uma forma de escrever linguagem de marcação (extremamente semelhante ao HTML) de componentes dentro do JavaScript, podendo aproveitar todos os recursos da linguagem para aplicar lógica na renderização. Se você quiser saber mais sobre JSX, acesse o melho lugar para isso é a &lt;a href=&quot;https://pt-br.reactjs.org/docs/introducing-jsx.html&quot;&gt;documentação oficial do JSX no React&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Um componente React pode ser escrito da seguinte forma:&lt;/p&gt;
+
+&lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;React&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;react&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// necessário para usar JSX no arquivo&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;HelloWorldComponent&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;props&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;className&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;HelloWorld&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;Hello, World!&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Ou, também, da seguinte forma:&lt;/p&gt;
+
+&lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;React&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;react&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// necessário para usar JSX no arquivo&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;HelloWorldComponent&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;React&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Component&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;className&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;HelloWorld&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;Hello, World!&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;O primeiro exemplo é de um componente funcional. É uma função que retorna um JSX. Já o segundo, é um componente baseado em classe. Ele extende de uma classe &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;React.Component&lt;/code&gt;, que nos possibilita utilizar estado, ciclos de vida, e muito mais.&lt;/p&gt;
+
+&lt;p&gt;O mercado está abandonando o uso de componentes baseados em classe e focando em componentes funcionais, por conta dos Hooks e outras facilidades. No final do artigo tem uma explicação técnica para isso. Por esse motivo, todo o artigo será escrito pensando em componentes funcionais.&lt;/p&gt;
+
+&lt;p&gt;Na primeira linha do primeiro exemplo, fazemos a importação do pacote React, que é necessário para a utilização do JSX dentro do arquivo (a explicação técnica para isso vai estar no final do artigo).&lt;/p&gt;
+
+&lt;p&gt;Em seguida criamos um método com o nome do nosso componente (“HelloWorldComponent”, no caso) que retorna um elemento JSX.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Atenção:&lt;/strong&gt; É importante que nosso componente esteja dentro de uma função que retorna o JSX, e não em uma constante que retorna diretamente o JSX, pois o React espera o método para ser executado, e não a execução do método em si, para ser reativo.&lt;/p&gt;
+
+&lt;h3 id=&quot;propriedades-no-componente-react&quot;&gt;Propriedades no componente React&lt;/h3&gt;
+
+&lt;p&gt;Se você prestou atenção no nosso código anterior, deve ter percebido que a função recebia um parâmetro &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;props&lt;/code&gt;. Isso significa que podemos enviar e receber propriedades em nossos componentes, e essas propriedades estarão disponíveis no primeiro parâmetro da função do nosso componente.&lt;/p&gt;
+
+&lt;p&gt;Vamos a um exemplo prático:&lt;/p&gt;
+
+&lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;React&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;react&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// necessário para usar JSX no arquivo&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;HelloWorldComponent&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;props&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;props&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;color&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;black&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;className&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;HelloWorld&quot;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+      Hello, World!
+    &lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Refatoramos nosso componente de forma a dar suporte para uma propriedade &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;color&lt;/code&gt; e, então, usamos o valor dessa propriedade dentro do &lt;em&gt;style&lt;/em&gt; da nossa div. Caso essa propriedade não seja passada, ou venha como undefined, definimos um valor padrão para  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&quot;black&quot;&lt;/code&gt;, usando o &lt;a href=&quot;https://www.w3schools.com/js/js_comparisons.asp&quot;&gt;operador lógico OR&lt;/a&gt; (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;||&lt;/code&gt;).&lt;/p&gt;
+
+&lt;p&gt;Agora podemos chamar nosso componente e passar nossa propriedade:&lt;/p&gt;
+
+&lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;React&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;react&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// necessário para usar JSX no arquivo&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;HelloWorldComponent&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;./HelloWorldComponent&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// importando nosso componente&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;App&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;HelloWorldComponent&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;red&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;/&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Irá renderizar nosso componente com a o texto da cor vermelha. Mas, caso a gente não passe a propriedade color, o valor padrão (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&quot;black&quot;&lt;/code&gt;, no nosso caso) será assumido.&lt;/p&gt;
+
+&lt;h2 id=&quot;como-renderizar-componentes-react&quot;&gt;Como renderizar componentes React&lt;/h2&gt;
+
+&lt;p&gt;Você deve estar se perguntando nesse exato momento: “onde eu digito tudo isso? como vejo o resultado?”. E é agora que vamos por a mão na massa!&lt;/p&gt;
+
+&lt;p&gt;Iniciar um projeto react é muito simples. Abra seu terminal preferido no seu diretório de desenvolvimento e execute o comando:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npx create-react-app my-app
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;e aguarde uns 2 minutos. Isso vai gerar um novo diretório chamado &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;my-app&lt;/code&gt; na raiz de onde executou o comando.&lt;/p&gt;
+
+&lt;p&gt;Após finalizar a execução desse comando, abra o diretório com seu editor ou IDE preferido. Você vai ver uma estrutura parecida com essa:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;src
+    &lt;ul&gt;
+      &lt;li&gt;App.css&lt;/li&gt;
+      &lt;li&gt;App.js&lt;/li&gt;
+      &lt;li&gt;App.test.js&lt;/li&gt;
+      &lt;li&gt;index.css&lt;/li&gt;
+      &lt;li&gt;index.js&lt;/li&gt;
+      &lt;li&gt;logo.svg&lt;/li&gt;
+      &lt;li&gt;serviceWorker.js&lt;/li&gt;
+      &lt;li&gt;setupTests.js&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Vamos entender para que serve cada arquivo:&lt;/p&gt;
+
+&lt;h3 id=&quot;indexjs&quot;&gt;index.js&lt;/h3&gt;
+
+&lt;p&gt;Arquivo inicial que será executado na nossa aplicação. Tudo que for chamado na nossa aplicação, estará ali. Incluindo nosso &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;App.js&lt;/code&gt;. Ideal para abstrair  configurações gerais do projeto.&lt;/p&gt;
+
+&lt;h3 id=&quot;appjs&quot;&gt;App.js&lt;/h3&gt;
+
+&lt;p&gt;Componente raiz da nossa aplicação. Este componente que vai ser renderizado dentro do index, e ele se encarrega de procurar aninhar todos os outros componentes.&lt;/p&gt;
+
+&lt;h3 id=&quot;serviceworkerjs-setuptestsjs-e-apptestjs&quot;&gt;serviceWorker.js, setupTests.js e App.test.js&lt;/h3&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;serviceWorker.js&lt;/code&gt; é arquivo que vem por padrão caso queira ativar o modo PWA no projeto. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;setupTests.js&lt;/code&gt; é um arquivo de configuração do Jest, para testes automatizados. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;App.test.js&lt;/code&gt; é um arquivo de teste automatizado. Abordamos sobre ambos os assuntos no &lt;a href=&quot;https://danielbonifacio.com.br&quot;&gt;nosso curso completo de React&lt;/a&gt;. Por hora, não vamos nos preocupar com isso.&lt;/p&gt;
+
+&lt;p&gt;Sugiro que limpe seu ambiente de trabalhado deletando os arquivos:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;logo.svg (remova a importação e utilização na tag &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;img /&amp;gt;&lt;/code&gt; no arquivo &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;App.js&lt;/code&gt;)&lt;/li&gt;
+  &lt;li&gt;serviceWorker.js (remova a importação e utilização no final do arquivo &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;index.js&lt;/code&gt;)&lt;/li&gt;
+  &lt;li&gt;setupTests.js&lt;/li&gt;
+  &lt;li&gt;App.test.js&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Agora basta executar o comando &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;npm start&lt;/code&gt; e começar a brincar com seu projeto React.&lt;/p&gt;
+
+&lt;h2 id=&quot;virtual-dom&quot;&gt;Virtual DOM&lt;/h2&gt;
+
+&lt;p&gt;Antes de antes de entender o que é o Virtual DOM, precisamos entender o que é o DOM em si. Temos um &lt;a href=&quot;#artigo-dom&quot;&gt;artigo completo sobre DOM&lt;/a&gt;, mas vamos resumir ele um pouco sobre ele aqui.&lt;/p&gt;
+
+&lt;p&gt;Basicamente, todos os elementos que você cria com HTML, precisam ser interpretados renderizados. Porém, para ter acesso a cada elemento individualmente, por meio do JavaScript, os navegadores armazenam uma cópia da estrutura hierárquica do nosso HTML em um formato que pode ser acessado pelo JavaScript. Então, concluímos que o DOM é uma representação do nosso HTML que pode ser acessada e manipulada dentro do JavaScript.&lt;/p&gt;
+
+&lt;p&gt;Porém, executar operações constantemente nesse grande objeto, se torna algo complexo e lento. Por esse motivo, o Facebook criou o chamado Virtual DOM. Ele é, basicamente, uma representação mais simples e mais leve do DOM, que pode ser manipulada de forma mais performática e, somente quando necessário, refletir as operações no DOM original.&lt;/p&gt;
+
+&lt;p&gt;Essa é uma informação apenas teórica, pois você não precisa se preocupar em aplicar o Virtual DOM, pois é abstraída pelo pacote &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;react-dom&lt;/code&gt; (vem por padrão no &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;npx create-react-app&lt;/code&gt;).&lt;/p&gt;
+
+&lt;h2 id=&quot;high-order-components&quot;&gt;High Order Components&lt;/h2&gt;
+
+&lt;h2 id=&quot;explicações-finais&quot;&gt;Explicações finais&lt;/h2&gt;
+
+&lt;h3 id=&quot;por-que-não-focamos-mais-em-componentes-baseados-em-classe&quot;&gt;Por que não focamos mais em componentes baseados em classe?&lt;/h3&gt;
+
+&lt;p&gt;Componentes baseados em classe foram extremamente importantes no desenvolvimento com React há alguns anos. Antigamente, apenas componentes baseados em classe podiam ter estado e executar ações no que a gente chama de ciclo de vida do componente.&lt;/p&gt;
+
+&lt;h4 id=&quot;ciclo-de-vida-do-componente-react&quot;&gt;Ciclo de vida do componente React&lt;/h4&gt;
+
+&lt;p&gt;Componentes possuem um ciclo de vida, e, para cada evento do ciclo, podemos executar métodos específicos.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://miro.medium.com/max/3348/1*cEWErpe-oY-_S1dOaT1NtA.jpeg&quot; alt=&quot;Lifecycle react&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ou seja, com componentes baseados em classe, podemos executar algo assim que o componente for montado, ou, por exemplo, alguma propriedade ou estado foi alterado, da seguinte forma:&lt;/p&gt;
+
+&lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;React&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;react&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;CoolComponent&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;React&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Component&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;constructor&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;props&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;super&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;props&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;state&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;amICool&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;nx&quot;&gt;componentDidMount&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;WoW! I just got mounted! Ihuuuuu&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;setTimeout&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;setState&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;amICool&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;nx&quot;&gt;componentDidUpdate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;previousProps&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;previousState&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;previousState&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;amICool&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!==&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;state&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;amICool&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;My cool status has been changed.&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  
+  &lt;span class=&quot;nx&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;state&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;amICool&lt;/span&gt;
+          &lt;span class=&quot;p&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;I am a cool component. Just that.&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;
+          &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;Maybe I am not so cool :C&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;
+      &lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;O código acima usa componente baseado em classe para observar se o estado &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;amICool&lt;/code&gt; do componente é alterado, e, caso ele seja, emite um alerta. Também emite um alerta inicial, quando o componente é criado, e programa uma alreação no estado para os próximos 5 segundos.&lt;/p&gt;
+
+&lt;p&gt;Muito legal e simples de entender. Porém, muito verboso. A gente consegue fazer isso com Hooks de forma mais simples:&lt;/p&gt;
+
+&lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;React&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;useState&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;useEffect&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;react&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;CoolComponent&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;amICool&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;setAmICool&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;useState&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  
+  &lt;span class=&quot;nx&quot;&gt;useEffect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;WoW! I just got mounted! Ihuuuuu&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;setTimeout&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;setAmICool&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[])&lt;/span&gt;
+
+  &lt;span class=&quot;nx&quot;&gt;useEffect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;My cool status has been changed.&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;amICool&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;state&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;amICool&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;I am a cool component. Just that.&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;Maybe I am not so cool :C&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;
+    &lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Os Hooks trabalham de forma mais inteligente, usando a metodologia de dependência. E só podemos utiliza Hooks dentro de componentes funcionais. E esse é um dos motivos pelo qual o mercado está focando em componentes funcionais.&lt;/p&gt;
+
+&lt;p&gt;Isso não significa que componentes baseados em classe estão obsoletos ou algo do tipo. Ainda são válidos e terão um bom suporte. Apenas significa que existe uma outra forma de trabalhar com ciclos de vida e reatividade, com componentes funcionais, e isso é ótimo.&lt;/p&gt;
+
+&lt;h3 id=&quot;por-qual-motivo-temos-que-importar-o-pacote-react-antes-utilizar-jsx&quot;&gt;Por qual motivo temos que importar o pacote React antes utilizar JSX?&lt;/h3&gt;
+
+&lt;p&gt;A resposta para isso é bem simples, e tem a ver com o compilador de JavaScript babel. Ao retornar uma tag JSX, o compilador renderiza:&lt;/p&gt;
+
+&lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;Hello, World&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;para:&lt;/p&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;React&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;createElement&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+  &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;Hello, World&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;E, por isso, você precisa importar o React, pois, por debaixo dos panos, se usa o &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;React.createElement&lt;/code&gt;. Se quiser se aprofundar mais sobre o compilador babel, e onde ele afeta no desenvolvimento, temos um &lt;a href=&quot;https://algaworks.com&quot;&gt;curso completo de React.js&lt;/a&gt; que vai elevar todas as suas skills sobre o ecossistema React/JavaScript.&lt;/p&gt;</content><author><name>Daniel Bonifacio</name></author><summary type="html">Não é de hoje que o React.js é o queridinho das empresas de desenvolvimento de software quando se fala em mobile e front-end web, e isso fez com que surgissem inúmeras vagas relacionadas à tecnologia.</summary></entry><entry><title type="html">JavaScript antes de qualquer framework</title><link href="/javascript-antes-dos-frameworks" rel="alternate" type="text/html" title="JavaScript antes de qualquer framework" /><published>2020-03-05T00:00:00-03:00</published><updated>2020-03-05T00:00:00-03:00</updated><id>/javascript-antes-dos-frameworks</id><content type="html" xml:base="/javascript-antes-dos-frameworks">&lt;blockquote&gt;
+  &lt;p&gt;Olá. Antes de iniciar, só para te contextualizar: escrevi esse arquivo na intenção de ser um roteiro para uma série de vídeos, por isso, em alguns casos, verão eu me referindo a este como se fosse um vídeo. No mais, espero que aprendam bastante, e compartilhe o conhecimento. Abs, Daniel Bonifacio.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;javascript-before-any-framework&quot;&gt;JavaScript before any framework&lt;/h1&gt;
+
+&lt;p&gt;É claro que todo desenvolvedor web já ouviu falar (ou ao menos deveria ter ouvido) sobre React, Vue ou Angular. Estas ferramentas são chamadas de frameworks, que são, basicamente, um conjunto de ferramentas para agilizar o desenvolvimento de aplicações front-end.&lt;/p&gt;
+
+&lt;p&gt;Escolher um framework para trabalho, às vezes, é uma decisão difícil. Empresas usam X, você gosta de Y, mas Z paga melhor, enfim… uma porra!&lt;/p&gt;
+
+&lt;p&gt;Mas existe algo em comum entre eles que você precisa saber antes de escolher um: JavaScript. Me chamo Daniel Bonifacio, sou Engenheiro de Software e nessa série eu vou te ensinar tudo que você precisa saber sobre JavaScript antes de entrar de cabeça em estudos de algum framework.&lt;/p&gt;
+
+&lt;p&gt;Observação: Não vou ensinar coisas muito básicas, como declaração de variáveis, tipos, etc. Imagino que você já saiba isso. Vou ensinar pontos chave do JavaScript &lt;strong&gt;moderno&lt;/strong&gt; e metodologias/teorias que grande parte dos frameworks usam.&lt;/p&gt;
+
+&lt;p&gt;Antes de iniciar a série de vídeos, vou pedir que compartilhe este vídeo com seus amigos, comente e avalie com um like, pois deu muito trabalho escrever tudo isso. De verdade. Mais de mil linhas de roteiro e exemplos.&lt;/p&gt;
+
+&lt;p&gt;Também é importante que você não pule nenhuma aula. Mesmo que você já saiba sobre algum assunto, assista todas as aulas, pois posso falar algo importante ou fazer referência a outra aula no meio.&lt;/p&gt;
+
+&lt;p&gt;Então pode se acomodar na cadeira, que lá vem conteúdo bom. Muito bom.&lt;/p&gt;
+
+&lt;h2 id=&quot;http-request&quot;&gt;HTTP Request&lt;/h2&gt;
+
+&lt;p&gt;Não tem como falar de frameworks front-end sem, antes, entender o que é e como funciona uma requisição HTTP.&lt;/p&gt;
+
+&lt;p&gt;Em resumo, toda e qualquer ação que você comete na internet, como acessar uma página ou enviar um formulário, envia uma nova requisição HTTP.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Uma requisição HTTP contém cabeçalhos, (&lt;em&gt;headers&lt;/em&gt;) corpo, (&lt;em&gt;body&lt;/em&gt;) verbo (&lt;em&gt;method&lt;/em&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;&lt;em&gt;verb&lt;/em&gt;) e um destino, que é a URL para onde você vai enviar os dados anteriores.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;headers&quot;&gt;Headers&lt;/h3&gt;
+
+&lt;p&gt;Cabeçalhos são, basicamente, meta informações sobre sua requisição. Nele, geralmente, enviamos e recebemos tokens, cookies, informações sobre o servidor, etc.&lt;/p&gt;
+
+&lt;h3 id=&quot;body&quot;&gt;Body&lt;/h3&gt;
+
+&lt;p&gt;O corpo da requisição é, como o nome sugere, o local onde enviamos e recebemos todas as informações que nossa requisição precisa, com exceção de tokens e outros metadados.&lt;/p&gt;
+
+&lt;p&gt;Os dados preenchidos no formulário, credenciais, arquivos, enfim, tudo isso será enviado no corpo da requisição.&lt;/p&gt;
+
+&lt;h3 id=&quot;verbo&quot;&gt;Verbo&lt;/h3&gt;
+
+&lt;p&gt;O verbo da requisição é apenas outro metadado, mas de exetrema importância para a execução da requsição. Eles definem se a requisição será para recuperar uma informação, enviar uma informação, atualizar um dado ou mesmo deletar algo.&lt;/p&gt;
+
+&lt;p&gt;As mais conhecidas:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;GET - geralmente, utilizado para receber algo&lt;/li&gt;
+  &lt;li&gt;POST - geralmente, utilizado para enviar algo&lt;/li&gt;
+  &lt;li&gt;PUT, PATCH - geralmente, utilizados para atualizar algo&lt;/li&gt;
+  &lt;li&gt;DELETE - geralmente, utilizado para deletar algo&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Mas não para por aí. A gente falou de como uma requisição, geralmente, é montada, mas não falamos ainda dos tipos de requisição que podemos fazer no nosso navegador.&lt;/p&gt;
+
+&lt;p&gt;Como eu falei no começo do capítulo, qualquer ação que você comete na internet, gera uma nova requisição, e dei dois exemplos: acessar uma página e enviar um formulário, e eis a diferença entre eles:&lt;/p&gt;
+
+&lt;p&gt;Ao acessar uma página, o seu navegador faz uma requisição HTTP para a URL que você digitou (obrigatoriamente do tipo GET) e recebe, no corpo da resposta, toda a estrutura/marcação HTML da sua página.&lt;/p&gt;
+
+&lt;p&gt;Já no envio de um formulário, você pode perceber que, geralmente, a página permanece parada e não atualiza, apenas te da um feedback sobre o status do envio do seu formulário.&lt;/p&gt;
+
+&lt;p&gt;Esse tipo de requisição se popularizou com o nome de AJAX. AJAX é um acrônimo para, em tradução livre: JavaScript Assíncrono e XML.&lt;/p&gt;
+
+&lt;p&gt;Mesmo que, atualmente, se utilizem formatos mais sustentáveis, como JSON, ao invés do XML, esta técnica ainda é conhecida por este nome, e, sinceramente, foi uma revolução na época.&lt;/p&gt;
+
+&lt;p&gt;Em resumo, JavaScript assíncrono é um código JavaScript que roda em outro bloco, lado a lado. Ou seja: você pode fazer várias coisas ao mesmo tempo, com JavaScript assíncrono. Caso você queira saber mais sobre JavaScript assícrono, eu já tenho uma aula sobre isso, veja no link, na descrição.&lt;/p&gt;
+
+&lt;p&gt;Pronto, agora você sabe o suficiente sobre requisições HTTP para prosseguir.&lt;/p&gt;
+
+&lt;h3 id=&quot;modules&quot;&gt;Modules&lt;/h3&gt;
+
+&lt;p&gt;Outro ponto que você precisa dominar, antes de entrar no mundo dos frameworks JavaScript são módulos. Especificamente, ESModules.&lt;/p&gt;
+
+&lt;p&gt;Módulos são formas de importar e exportar objetos dentro do seu código JavaScript.&lt;/p&gt;
+
+&lt;p&gt;A sintaxe de módulos é muito simples de ser utilizada. Digamos que você cria uma classe &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Human&lt;/code&gt; e quer exportar ela, para usar em outro módulo.&lt;/p&gt;
+
+&lt;p&gt;Bom, isso pode ser feito através do &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;export&lt;/code&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Animal&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;./Animal.js&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// spoiler&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Human&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Animal&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;say&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;words&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;words&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// exports Human constructor&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Human&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Uma vez importada, você&lt;/p&gt;
+
+&lt;p&gt;Você pode importar assim:&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Human&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;  &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;./Human.js&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Human&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;adam&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;./human.js&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// shortcut&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;eve&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Human&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;Eve&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;eve&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;eat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;apple&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;adam&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;say&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;oh sheet&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Claro que não existe somente essa forma de importar ou exportar algo, mas são as mais comuns. A todo caso, existe uma ótima documentação da MDN sobre import e exeport, no link que se encontra na descrição.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/import&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Mas esse básico já vai te salvar muito na hora de mexer com os frameworks.&lt;/p&gt;
+
+&lt;h3 id=&quot;classes&quot;&gt;Classes&lt;/h3&gt;
+
+&lt;p&gt;Se você não sabe o conceito de orientação à objeto, cara, ce precisa aprender. É amplamente utilizado em, basicamente, toda programação. Mas relaxa que eu tô aqui para ensinar, e é isso que vou fazer.&lt;/p&gt;
+
+&lt;p&gt;Antes disso, vou deixar um aviso: caso você não consiga entender o conceito de classes e orientação à objetos no geral, não se sinta mal, este é um paradigma diferente do que, provavelmente, você está acostumado, é um pouco complexo e as pessoas demoram um pouquinho mesmo para entender. Vá com garra! Procure mais fontes de conhecimento depois dessa aula, pois você precisa dominar esse assunto. Não é uma opção.&lt;/p&gt;
+
+&lt;p&gt;A orientação à objetos é um conceito muito velho inventado por um programador influente muito velho e que veio a se popularizar há muito tempo. Acredite ou não: da pra reescrever a porra do universo usando esse conceito.&lt;/p&gt;
+
+&lt;p&gt;O conceito sugere que, tudo deve ser um objeto. E um objeto é composto por um conjunto de propriedades e métodos. Não sei se você percebeu, mas é assim que o universo funciona.&lt;/p&gt;
+
+&lt;p&gt;Uma caneta, por exemplo. Ela tem propriedades, como a tampa, a cor, a marca, a ponta, etc. E métodos, como escrever, tampar, destampar, etc.&lt;/p&gt;
+
+&lt;p&gt;Um animal também tem propriedades: olhos, peso, sexo, etc. assim como métodos: respirar, movimentar, ou sei lá, peidar. Animais peidam.&lt;/p&gt;
+
+&lt;p&gt;Acho que deu pra entender que objetos possuem propriedades (que são características deles) e métodos (que ações executadas por ele).&lt;/p&gt;
+
+&lt;p&gt;O que você também deve ter percebido é que todas as canetas possuem métodos em comum, como, por exemplo: escrever. Todos os animais também, como, por exemplo, respirar.&lt;/p&gt;
+
+&lt;p&gt;Agora você, que é o gênio da programação moderna está pensando: “Mas nem toda a caneta tem tampa. Refutado”. Agora que essa parada fica interessante: você já estudou sobre evolução e ramificação? Então, da pra fazer isso com a orientação a objetos. Por essa você não esperava.&lt;/p&gt;
+
+&lt;p&gt;Resumidamente, existe um conceito de herança na OOP. Uma classe pode basicamente, exender de outra classe.&lt;/p&gt;
+
+&lt;p&gt;Se sua cabeça ta explodindo com esse tanto de informação ao mesmo tempo sobre, classes, objetos, heranças, peidos, relaxa, vou te explicar tudo com calma agora.&lt;/p&gt;
+
+&lt;h4 id=&quot;classes-objects-and-inheritance&quot;&gt;Classes, objects and inheritance&lt;/h4&gt;
+
+&lt;p&gt;Uma classe é, resumidamente, uma fôrma para um objeto. Ela vai conter todos os métodos daquele objeto. Pensa nela como um esqueleto do objeto.&lt;/p&gt;
+
+&lt;p&gt;Um objeto é uma instância dessa classe. Ou seja, posso usar minha forma para fazer vários objetos. Na hora de instanciar, isto é, criar meu objeto, que eu irei informar quais são suas características.&lt;/p&gt;
+
+&lt;p&gt;Herança é o ato de você extender uma classe da outra. Esse pode dar um pouquinho mais de trabalho para entender, mas vou tentar resumir na mesma linha de raciocínio.&lt;/p&gt;
+
+&lt;p&gt;Imagine que você tem uma classe &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Animal&lt;/code&gt;, e esta classe possui as seguintes propriedades e métodos:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;name&lt;/code&gt; - Propriedade; o nome do animal;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;class&lt;/code&gt; - Propriedade; o tipo do animal;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;birthdate&lt;/code&gt; - Propriedade; a data de nascimento do animal;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;breath&lt;/code&gt; - Método; o que mantem o animal vivo;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fart&lt;/code&gt; - Método; você sabe o que é isso.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Essa classe pode ser usada como base para qualquer animal, certo?&lt;/p&gt;
+
+&lt;p&gt;Então, se eu quiser criar uma classe de mamíferos, posso simplesmente extender dessa classe e adicionar qualquer outra propriedade e/ou métodos, como amamentar. Uma de peixes, por exemplo, poderia acrescentar chorar, ou nadar.&lt;/p&gt;
+
+&lt;p&gt;Como assim “chorar”? Quem que colocou isso no roteiro? Isso provavelmente é uma piada muito sem graça sobre signos que tirou toda minha credibilidade!&lt;/p&gt;
+
+&lt;p&gt;Voltando.&lt;/p&gt;
+
+&lt;p&gt;Eu também posso herdar de classes herdadas. Uma classe de humanos, por exemplo, herda da classe de mamíferos, que, por sua vez, herda da classe de animais. Nela eu poderia acrescentar diversas novas propriedades, como cor dos olhos, cabelo, tom da pele, sexo, etc. e vários métodos, como andar, falar, etc.&lt;/p&gt;
+
+&lt;p&gt;Acho que o resumão é esse mesmo:&lt;/p&gt;
+
+&lt;p&gt;adão = nova instância de um Humano com (propriedades)&lt;/p&gt;
+
+&lt;p&gt;ou, em JavaScript:&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;properties&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;adam&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;sex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;male&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;adam&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Human&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;properties&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;prática&quot;&gt;Prática&lt;/h4&gt;
+
+&lt;p&gt;Criando uma nova classe:&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Animal&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;c1&quot;&gt;// props and methods goes here&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;No exemplo, eu criei uma classe com o nome &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Animal&lt;/code&gt;. Por convenção, o nome de classes é dado em &lt;em&gt;PascalCase&lt;/em&gt;, enquando as instâncias, propriedades e métodos, em &lt;em&gt;camelCase&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Adicionando propriedades nessa classe:&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Animal&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;kd&quot;&gt;constructor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;properties&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;properties&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;
+		&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;properties&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;type&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;No exemplo eu tenho dois novos elementos: o método construtor e a palavra reservada &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;this&lt;/code&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Método construtor (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;constructor&lt;/code&gt;): Método que é executado automaticamente assim que uma nova instância é criada. Podemos passar parâmetros para ele.&lt;/li&gt;
+  &lt;li&gt;Palavra reservada &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;this&lt;/code&gt;: você já deveria conhecer, mas vou quebrar essa. A palavra reservada &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;this&lt;/code&gt; sempre irá se referir ao contexto (objeto) em que está sendo executada.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;No exemplo acima, eu defini que meu objeto ganharia duas propriedades: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;name&lt;/code&gt; e &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;class&lt;/code&gt; e que estas viriam do meu parâmetro &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;properties&lt;/code&gt;. Ou seja, defini que as propriedades do meu objeto são as que eu passar no momento que criar ele.&lt;/p&gt;
+
+&lt;p&gt;Como o &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;constructor&lt;/code&gt; é um método, também podemos adicionar propriedades automaticamente, sem depender de um input na instância:&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Animal&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;kd&quot;&gt;constructor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;properties&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;properties&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;
+		&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;properties&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;type&lt;/span&gt;
+		
+		&lt;span class=&quot;c1&quot;&gt;// adding birthdate automatically&lt;/span&gt;
+		&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;birthdate&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;now&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Mas como falei objetos, além de propriedades, possuem métodos. E eles são criados assim como o método &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;constructor&lt;/code&gt;, a diferença é que eles não são chamados automaticamente (a não ser que você chame eles no construtor) na criação da instância:&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Animal&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;kd&quot;&gt;constructor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;properties&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;properties&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;
+		&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;properties&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;type&lt;/span&gt;
+		
+		&lt;span class=&quot;c1&quot;&gt;// adding birthdate automatically&lt;/span&gt;
+		&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;birthdate&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;now&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+	
+	&lt;span class=&quot;nx&quot;&gt;breath&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;Huff&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+	
+	&lt;span class=&quot;nx&quot;&gt;fart&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;Poot&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Agora que temos nossa classe, podemos criar quantas instâncias queremos.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Animal&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;c1&quot;&gt;// [... class stuff]&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// creating an instance&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;frog&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Animal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
+	&lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;froggy&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+	&lt;span class=&quot;na&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;amphibian&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// accessing instance methods&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;frog&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;fart&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// -&amp;gt; &quot;Poot&quot;&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// accessing instance properties&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;frog&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// -&amp;gt; &quot;amphibian&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Agora ta na hora de aprender a herdar de classes. É isso que move o mundo!&lt;/p&gt;
+
+&lt;p&gt;Existes peculiaridades na hora de herdar de uma classe:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Você precisa herdar de uma classe, nunca de uma instância;&lt;/li&gt;
+  &lt;li&gt;Você precisa chamar o método &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;super&lt;/code&gt; no construtor da classe a ser extendida, para passar as propriedades dela para para a classe-pai;&lt;/li&gt;
+  &lt;li&gt;Você pode adicionar novos métodos, e estes métodos estarão disponíveis somente nesta classe ou em classes que herdam dela. A classe pai ou irmãs não serão afetadas.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Mammal&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Animal&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;kd&quot;&gt;constructor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;properties&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;c1&quot;&gt;// super calls the parent constructor&lt;/span&gt;
+		&lt;span class=&quot;c1&quot;&gt;// I've called with the type setted&lt;/span&gt;
+		&lt;span class=&quot;k&quot;&gt;super&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
+			&lt;span class=&quot;p&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;properties&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+			&lt;span class=&quot;na&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;mammal&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;
+		&lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+	
+	&lt;span class=&quot;c1&quot;&gt;// adding new methods&lt;/span&gt;
+	&lt;span class=&quot;c1&quot;&gt;// this method will only be accessible in this class instances&lt;/span&gt;
+	&lt;span class=&quot;c1&quot;&gt;// parent or siblings instances will not have this method&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;breastfeed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;time&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1500&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;c1&quot;&gt;// I rlly dont know how2 represent this in javascript, srry&lt;/span&gt;
+		&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;*breastfeeding&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+		&lt;span class=&quot;nx&quot;&gt;setTimeout&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;*finished&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;No exemplo, eu criei uma classe &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Mammal&lt;/code&gt; (mamífero) que extende de &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Animal&lt;/code&gt;, e diretamente no construtor, eu chamei o método &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;super&lt;/code&gt; repassando as propriedades que recebo como parâmetro na criação da instância, mas sobescrevendo a propriedade &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;class&lt;/code&gt; como mamífero.&lt;/p&gt;
+
+&lt;p&gt;Também adicionei o método &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;breastfeed&lt;/code&gt; (amamentar), sendo este um método que só poderá ser acessado por instâncias dessa classe (&lt;em&gt;Mammal&lt;/em&gt;) ou de classes herdadas dela.&lt;/p&gt;
+
+&lt;p&gt;Caso não tenha entendido muito bem a parte do super, deixo &lt;a href=&quot;https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/super&quot;&gt;esse artigo da MDN&lt;/a&gt; como referência para estudo.&lt;/p&gt;
+
+&lt;p&gt;Uma pergunta recorrente é “mas e se eu não quiser herdar o método X ou propriedade Y?”. A resposta ficará mais óbvia e aceitável com o passar do tempo e experiência com o paradígma.&lt;/p&gt;
+
+&lt;p&gt;Se você precisa remover um método herdado, sua evolução está incorreta.&lt;/p&gt;
+
+&lt;p&gt;Agora você tem duas opções: refazer sua arvore genealógica da forma correta, ou seja, acrescendo um ancestral primordial que não possui aquela propriedade ou método, ou seguir o baile e torcer pra ninguém nunca chamar aquele método que não deveria estar ali.&lt;/p&gt;
+
+&lt;p&gt;Agora você já sabe sobre classes.&lt;/p&gt;
+
+&lt;h3 id=&quot;spread&quot;&gt;Spread&lt;/h3&gt;
+
+&lt;p&gt;Chegamos num dos carinhas mais legais do JavaScript moderno, o operador de Spread.&lt;/p&gt;
+
+&lt;p&gt;Eu chamo ele de operador da liberdade. Mais pra frente cê vai ver o motivo.&lt;/p&gt;
+
+&lt;p&gt;Na descrição oficial da MDN sobre o Spread, dizem que esse operador:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“permite que um objeto iterável, como um array ou string, seja expandida em locais onde zero ou mais argumentos (para chamadas de função) ou elementos (para literais de array) sejam esperados ou uma expressão de objeto seja expandida em locais onde zero ou mais pares de chave-valor (para literais de objeto) são esperados.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Vamos entender isso com calma, por partes.&lt;/p&gt;
+
+&lt;p&gt;Ela diz que ele &lt;em&gt;“permite que um objeto iterável […] seja expandido em locais onde zero ou mais argumentos […] são esperados”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Isso significa que se eu tenho uma função que espera, vamos dizer, 3 argumentos, posso chamar ela com um objeto iterável com o operador Spread, onde cada item será um parâmetro:&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Person&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Human&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;kd&quot;&gt;constructor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;age&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;career&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;
+		&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;age&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;age&lt;/span&gt;
+		&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;career&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;career&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;iterableObject&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;Daniel&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;Engenheiro de Software&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// this&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;me&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(...&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;iterableObject&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// has same effect as this&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;me&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;Daniel&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;Engenheiro de Software&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Isso significa, também, que eu posso ter uma função que espera um número indefinido de argumentos, fazendo a lógica inversa:&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;spell&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(...&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;chars&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;c1&quot;&gt;// chars will be an array with all arguments received&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;chars&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;forEach&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;spell&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;E&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;I&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;O&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;U&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Se você já trabalhou com Ruby alguma vez, vai notar que é, basicamente, a mesma coisa que o operador &lt;em&gt;*Splat&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Mas lembra que eu disse que chamava o Spread de “operador da liberdade”? Acho que é muito mais simples se você visualizar que este operador liberta os itens que estão contidos no objeto.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;spell&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;E&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;I&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;O&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;U&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// normal&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;spell&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(...[&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;E&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;I&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;O&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;U&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// com spread&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Se você reparar bem, o que ele faz é “remover” as chaves/colchetes que seguram os itens. Simples assim. E isso também é válido para objetos.&lt;/p&gt;
+
+&lt;p&gt;Se você imaginar que o spread remove as chaves ou colchetes que estão ao redor do objeto, vai conseguir utilizar ele bem facilmente em várias situações.&lt;/p&gt;
+
+&lt;div class=&quot;language-diff highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gd&quot;&gt;-['A', 'E', 'I', 'O', 'U']
+&lt;/span&gt;&lt;span class=&quot;gi&quot;&gt;+'A', 'E', 'I', 'O', 'U'
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;E, falando em objetos, vamos ir para a parte do spread que fala sobre ele. Na referência diz que ele &lt;em&gt;“permite que […] uma expressão de objeto seja expandida em locais onde zero ou mais pares de chave-valor […] são esperados.”&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;O que eles querem dizer com isso é que você pode espalhar um objeto da mesma forma que espalha um array.&lt;/p&gt;
+
+&lt;p&gt;Eu fiz isso quando falei de classes, não sei se você lembra.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Mammal&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Animal&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;kd&quot;&gt;constructor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;properties&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;k&quot;&gt;super&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
+			&lt;span class=&quot;p&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;properties&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// bem aqui&lt;/span&gt;
+			&lt;span class=&quot;na&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;mammal&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;
+		&lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Imagine que o valor de &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;properties&lt;/code&gt; seja um objeto com 2 propriedades: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;name&lt;/code&gt; e &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sex&lt;/code&gt;. E eu preciso passar um objeto com 3 propriedades (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;name&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;type&lt;/code&gt; e &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sex&lt;/code&gt;) para o meu método &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;super()&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Para fazer isso sem o spread, teria que fazer isso:&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Mammal&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Animal&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;kd&quot;&gt;constructor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;properties&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;k&quot;&gt;super&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
+			&lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;properties&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+			&lt;span class=&quot;na&quot;&gt;sex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;properties&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;sex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+			&lt;span class=&quot;na&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;mammal&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;
+		&lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;O que, por enquanto, não é ruim. Mas a medida que essas propriedades vão aumentando, vai ficando horrível para quem vai dar manutenção.&lt;/p&gt;
+
+&lt;p&gt;Você pode estar pensando: “mas e se eu passar o objeto inteiro sem o spread, não iria surtir o mesmo efeito?”. A resposta é não.&lt;/p&gt;
+
+&lt;p&gt;Esse seria o resultado:&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Mammal&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Animal&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;kd&quot;&gt;constructor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;properties&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;k&quot;&gt;super&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
+			&lt;span class=&quot;nx&quot;&gt;properties&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+			&lt;span class=&quot;na&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;mammal&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;
+		&lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+
+		&lt;span class=&quot;c1&quot;&gt;// expected:&lt;/span&gt;
+		&lt;span class=&quot;c1&quot;&gt;// { name, sex, class }&lt;/span&gt;
+
+		&lt;span class=&quot;c1&quot;&gt;// received:&lt;/span&gt;
+		&lt;span class=&quot;c1&quot;&gt;// {&lt;/span&gt;
+		&lt;span class=&quot;c1&quot;&gt;//   properties: { name, sex },&lt;/span&gt;
+		&lt;span class=&quot;c1&quot;&gt;// 	 class&lt;/span&gt;
+		&lt;span class=&quot;c1&quot;&gt;// }&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Talvez agora que você entenda o que eu disse sobre remover as chaves ou colchetes.&lt;/p&gt;
+
+&lt;p&gt;Ao utilizar o Spread, eu removi as chaves ao redor do meu objeto, elevando trazendo os filhos dele para o mesmo nível do objeto onde o Spread foi utilizado.&lt;/p&gt;
+
+&lt;h4 id=&quot;spread-and-functional-programming&quot;&gt;Spread and Functional Programming&lt;/h4&gt;
+
+&lt;p&gt;O operador Spread se torna muito útil, por exemplo, em aplicações de programação funcional.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;toDos&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;wash car&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;buy milk&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;newTodos&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[...&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;toDos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;play videogames&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;newTodos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// -&amp;gt; ['wash car', 'buy milk', 'play videogames']&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Vale lembrar que, em casos de objetos e duplicidade de chaves, a ordem de prioridade é igual a do CSS: o último item declarado que prevalece.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;me&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;Daniel&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+	&lt;span class=&quot;na&quot;&gt;age&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+	&lt;span class=&quot;na&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;1.93&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;newMe&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;me&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+	&lt;span class=&quot;na&quot;&gt;age&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;21&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// placed after, will overwrite&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;notSoNewMe&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;na&quot;&gt;age&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;21&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// placed befor, will be overwrited&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;me&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;newMe&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// -&amp;gt; { name: 'Daniel', age: 21, height: 1.93 }&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;notSoNewMe&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// -&amp;gt; { name: 'Daniel', age: 20, height: 1.93 }&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Pronto. Agora você já sabe o suficiente de spread para continuar.&lt;/p&gt;
+
+&lt;h3 id=&quot;fetch&quot;&gt;Fetch&lt;/h3&gt;
+
+&lt;p&gt;A gente já falou de requisição HTTP antes, lembra? O fetch é a API moderna do JavaScript que permite, de forma muito fácil, que a gente faça requisições AJAX nas nossas aplicações.&lt;/p&gt;
+
+&lt;p&gt;Você incondicionalmente precisa saber o que são promises, async e await para prosseguir sobre este assunto. Eu já falei sobre isso antes. O Link está na descrição.&lt;/p&gt;
+
+&lt;p&gt;Bom, como esta é uma API, pra facilitar, vou mostrar alguns exemplos e explicar o que eles fazem.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;fetch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;https://jsonplaceholder.typicode.com/posts&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;na&quot;&gt;method&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;GET&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+	&lt;span class=&quot;na&quot;&gt;headers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;na&quot;&gt;authorization&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;t0p_s3cr3t_t0k3n&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;response&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;posts&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;nx&quot;&gt;posts&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;forEach&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;post&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;catch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;err&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Mesmo o código sendo autoexplicativo, vamos explicar ele.&lt;/p&gt;
+
+&lt;p&gt;O objetivo do código é acessar a API do JSON Placeholder, recuperar todos os posts e logar cada um, separadamente, no console.&lt;/p&gt;
+
+&lt;p&gt;Na primeira linha, a gente inicia uma nova requisição para a URL &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;https://jsonplaceholder.typicode.com/posts&lt;/code&gt;, passando ela como o primeiro parâmetro do método &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fetch()&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Já nas linhas de 2 a 5 a gente passa algumas opções para a nossa requisição, como o &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;method&lt;/code&gt; (verbo) e um objeto de headers, que contém uma chave &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;authorization&lt;/code&gt;, que é um padrão de envio de Token.&lt;/p&gt;
+
+&lt;p&gt;Essa API retorna uma Promise, então vamos capturar seu retorno com &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;then()&lt;/code&gt; e &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;catch()&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Reparem que existe um Promise chaining no código. Isso se deve pelo fato de que o retorno da promise é um objeto completo de resposta de requisição, com código de status, headers, etc.&lt;/p&gt;
+
+&lt;p&gt;Mas, na maiorias massiva das vezes, a gente só precisa do corpo da resposta. Os dados em si. Por isso o objeto de resposta possui um método chamado &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;json()&lt;/code&gt;, que retorna apenas o corpo.&lt;/p&gt;
+
+&lt;p&gt;Então, na segunda liga da corrente, temos acesso aos posts diretamente. Agora iteramos sobre o array de posts, logando cada um separadamente.&lt;/p&gt;
+
+&lt;p&gt;O catch tá ali esperando algum erro de conexão ou falha na resposta do servidor.&lt;/p&gt;
+
+&lt;h4 id=&quot;error-handling&quot;&gt;Error handling&lt;/h4&gt;
+
+&lt;p&gt;Agora vamos entrar num dos pontos negativos de se trabalhar com a fetch API, ao invés de uma biblioteca específica para requisições HTTP, como o axios.&lt;/p&gt;
+
+&lt;p&gt;Em APIs REST a comunicação de erros é feita por código de status. Independente do que aconteça dentro do servidor, sempre haverá uma requisição e uma resposta.&lt;/p&gt;
+
+&lt;p&gt;Geralmente, identificamos um erro por meio do código de status da requisição.&lt;/p&gt;
+
+&lt;p&gt;O grande problema com a fetch API é que ela considera que “existe uma diferença entre um “erro” e uma “exception”. […] Não existe exception em receber códigos 4xx ou 5xx […].”.&lt;/p&gt;
+
+&lt;p&gt;Por mais que eu tenha que concordar com quem disse isso, no ponto de vista teórico, isso significa que, na prática, você vai receber as respostas de erro da API no mesmo bloco que suas respostas de sucesso.&lt;/p&gt;
+
+&lt;p&gt;Isso te obrigrar a comparar o status da requisição e, dependendo da camada onde você está, isso é, no meu ponto de vista, algo muito errado.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;fetch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;https://jsonplaceholder.typicode.com/posts&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;na&quot;&gt;method&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;GET&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+	&lt;span class=&quot;na&quot;&gt;headers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;na&quot;&gt;authorization&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;t0p_s3cr3t_t0k3n&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;response&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;status&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;response&lt;/span&gt;
+
+		&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;status&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;400&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;status&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;600&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+			&lt;span class=&quot;k&quot;&gt;throw&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;status&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;response&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+		&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+		&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;posts&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;nx&quot;&gt;posts&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;forEach&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;post&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;catch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;err&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Como no exemplo acima. Isso é totalmente fora do padrão de responsabilidade.&lt;/p&gt;
+
+&lt;p&gt;Então, entenda que se for mesmo usar fetch API, você terá 2 opções:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Quebrar padrões de desenvolvimento, aplicando responsabilidade que não deveriam estar ali, ali;&lt;/li&gt;
+  &lt;li&gt;Encapsular ela em uma classe de requisições, e usar a classe. (melhor opção, no meu ponto de vista)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Pronto, você sabe o suficiente sobre a fetch API.&lt;/p&gt;
+
+&lt;h3 id=&quot;array-manipulation&quot;&gt;Array manipulation&lt;/h3&gt;
+
+&lt;p&gt;Especialmente em sistemas, você vai trabalhar muito com listagens e filtros. E o JavaScript moderno facilitou tanto isso pra gente, que você não vai mais trabalhar com arrays da mesma forma, depois desta aula.&lt;/p&gt;
+
+&lt;p&gt;Você vai aprender os métodos &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;map()&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;filter()&lt;/code&gt; e &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;reduce()&lt;/code&gt; e algumas técnicas legais que vão te ajudar no dia a dia.&lt;/p&gt;
+
+&lt;p&gt;Mas, antes, vamos entender o básico de programação funcional, pois estes métodos são funcionais.&lt;/p&gt;
+
+&lt;h4 id=&quot;functional-programming&quot;&gt;Functional Programming&lt;/h4&gt;
+
+&lt;p&gt;Já dei um exemplo de programação funcional anteriormente, quando falamos no &lt;em&gt;Spread operator&lt;/em&gt;. Mas agora vou dar um resumo sobre o que ela é.&lt;/p&gt;
+
+&lt;p&gt;A programação funcional trabalha com um conceito de imutabilidade, e isso significa que, na programação funcional, nada tem seu valor alterado, tudo retorna um novo valor.&lt;/p&gt;
+
+&lt;p&gt;Sei que isso pode parecer estranho, e esse assunto é tão complexo que merece uma série vídeos só pra ele, mas, por agora, entenda apenas que, na programação funcional, o valor de variáveis não é alterado. Novas variáveis que tomam seu lugar.&lt;/p&gt;
+
+&lt;p&gt;E, como sei que você tá pensando “Mas por que caralhos?”, vou dar um resuminho das vantagens da programação funcional:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Facilidade nos testes e na busca por bugs;&lt;/li&gt;
+  &lt;li&gt;Uso de gerenciamento de memória automático;&lt;/li&gt;
+  &lt;li&gt;Semântica simples;&lt;/li&gt;
+  &lt;li&gt;Reduz a complexidade do código;&lt;/li&gt;
+  &lt;li&gt;Aumenta a modularização do código.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Resumo: existem muitas vantagens em trabalhar com Programação Funcional, e alguns frameworks, como React, por exemplo, adotam ela como base.&lt;/p&gt;
+
+&lt;h4 id=&quot;map&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;map()&lt;/code&gt;&lt;/h4&gt;
+
+&lt;p&gt;Agora vamos falar do &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Array.map()&lt;/code&gt;, o mais famoso de todos, sem dúvidas.&lt;/p&gt;
+
+&lt;p&gt;Lembrando: todos os métodos estão contidos no construtor &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Array&lt;/code&gt;, então podem ser acessados por meio deles.&lt;/p&gt;
+
+&lt;p&gt;Você lembra como que se cria um array baseado em outro array, manipulando os dados internos?&lt;/p&gt;
+
+&lt;p&gt;Existem &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;N&lt;/code&gt; formas de fazer isso, mas vou fazer do jeito mais antigo que lembro.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;numbers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;multiplyTimes&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;times&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;newNumbers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
+
+	&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;newNumber&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+		&lt;span class=&quot;nx&quot;&gt;newNumbers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;newNumber&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+	&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;newNumbers&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;No exemplo, criamos um array de números de 1 a 5, e depois criamos uma função que retorna os mesmos números multiplicados por 2.&lt;/p&gt;
+
+&lt;p&gt;Fizemos isso com um laço de repetição &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;for&lt;/code&gt;, da forma mais clássica possível.&lt;/p&gt;
+
+&lt;p&gt;E se eu te disser que isso tudo pode se resumir em 1 linha de código, vai surtar? Pois é, com o &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;map()&lt;/code&gt; pode.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;numbers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;multiplyTimes&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;times&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;number&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;number&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;times&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Antes de tudo, lembre-se que disse que os métodos que eu disse aqui, são funcionais, isto é, eles retorna um novo valor que será um array.&lt;/p&gt;
+
+&lt;p&gt;O método map recebe uma função como parâmetro, e esta função será executada em cada iteração. Ela recebe o valor do item que está sendo percorrido, no primeiro parâmetro, o segundo, o índice daquele valor, e, em terceiro, o array completo que está sendo iterado.&lt;/p&gt;
+
+&lt;p&gt;Se você executar no console:&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;B&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;C&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;D&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;terá uma noção básica do que ela recebe como parâmetro.&lt;/p&gt;
+
+&lt;p&gt;E, para cada iteração, eu &lt;strong&gt;preciso&lt;/strong&gt; retornar um valor. Esse será o valor inserido naquele índice, no novo array. Caso você não retorne nada, aquele índice receberá &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;undefined&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Então, voltando ao código do exemplo, eu criei uma função com o mesmo nome, que recebe os mesmos parâmetros, ela retorna um array (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Array.map()&lt;/code&gt; retorna um array). Esse array é resultado do map do array passado como parâmetro, onde, em cada índice, eu retorno o valor daquele índice multiplicado por 2.&lt;/p&gt;
+
+&lt;p&gt;E, como este é um método funcional, ou seja, não modifica o valor original, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;numbers&lt;/code&gt;, permanece com o mesmo valor de antes.&lt;/p&gt;
+
+&lt;p&gt;O map é muito útil no react, quando você vai renderizar uma lista.&lt;/p&gt;
+
+&lt;p&gt;Um spoiler seria mais ou menos assim:&lt;/p&gt;
+
+&lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;List&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;ul&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+	&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;item&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;li&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;)&lt;/span&gt; &lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;ul&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Se você nunca viu, esse negócio aí em cima, te apresento um código simples em React.&lt;/p&gt;
+
+&lt;h4 id=&quot;filter&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;filter()&lt;/code&gt;&lt;/h4&gt;
+
+&lt;p&gt;Vimos, anteriormente, que o método &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;map()&lt;/code&gt; precisa retornar um valor para o índice, do contrário, aquele índice retornará &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;undefined&lt;/code&gt;. Isso impede a gente de criar uma lista filtrada, afinal, iremos ter objetos inconsistentes no array, gerando problemas futuros.&lt;/p&gt;
+
+&lt;p&gt;Mas, para resolver estes casos, existe o &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;filter()&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ele recebe os mesmos parâmetros que o &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;map()&lt;/code&gt;, mudando apenas sua forma de retorno.&lt;/p&gt;
+
+&lt;p&gt;Com o filter, você precisa retornar um &lt;em&gt;booleano&lt;/em&gt;. Caso este booleano seja &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;true&lt;/code&gt;, aquele item será adicionado no array final, caso seja &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;false&lt;/code&gt;, será ignorado.&lt;/p&gt;
+
+&lt;p&gt;Ou seja, ele server para filtrar itens de um array mesmo, como o nome sugere.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;numbers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// without filter&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;getOdds&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;odds&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
+
+	&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;isOdd&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+		&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;isOdd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+			&lt;span class=&quot;nx&quot;&gt;odds&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+		&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+	&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;odds&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;No exemplo criamos um algorítmo que, basicamente, retorna todos os números que não são divisores por 2, ou seja ímpares, do nosso array.&lt;/p&gt;
+
+&lt;p&gt;Esse mesmo método pode ser escrito da seguinte forma, com &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;filter()&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;numbers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;getOdds&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;filter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;number&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;number&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Novamente, nosso array de origem (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;numbers&lt;/code&gt;) está intácto.&lt;/p&gt;
+
+&lt;p&gt;Uma aplicação muito comum do filter em frameworks, como o React ou Vue, é para remover um item de um array.&lt;/p&gt;
+
+&lt;p&gt;A técnica consiste em, basicamente, retornar todos os itens do array, exceto aquele que estamos querendo remover.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;removePerson&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;people&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;people&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;filter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;person&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;id&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!==&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;E, para usar nosso método, é simples:&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;people&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;Jake&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;John&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;Jacob&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;Jasmine&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;newPeople&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;removePerson&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;people&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;reduce&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;reduce()&lt;/code&gt;&lt;/h4&gt;
+
+&lt;p&gt;O propósito do &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;reduce()&lt;/code&gt; é, basicamente, iterar por um array, trazendo um único valor como retorno. Esse retorno pode ser de qualquer tipo.&lt;/p&gt;
+
+&lt;p&gt;O método &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;reduce()&lt;/code&gt; recebe, dois parâmetros. O primeiro é a função que será executada a cada iteração, e o segundo é o valor inicial do resultado final.&lt;/p&gt;
+
+&lt;p&gt;Basicamente, são esses parâmetros:&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;Array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;reduce&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;accumulator&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;currentValue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;currentIndex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;originalArray&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;initialValue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Vamos começar com o básico, depois a gente vai aprofundando.&lt;/p&gt;
+
+&lt;p&gt;Nosso primeiro algoritmo com o reduce, vai simplesmente somar todos os números de um Array.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;toSum&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;toSum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;reduce&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;accumulator&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;currentValue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;acumulator&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;currentValue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;O resultado deve se 10, certo? Pois &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1 + 2 = 3&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;3 + 3 = 6&lt;/code&gt; e  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;6 + 4 = 10&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Vamos fazer nosso script dizer o passo a passo também?&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;toSum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;reduce&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;accumulator&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;currentValue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;accumulator&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;currentresult&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;accumulator&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; + &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;currentValue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; = &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;result&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;E se a gente quiser passar um valor inicial para o &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;accumulator&lt;/code&gt;? Simples, existe o parâmetro para isso.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;toSum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;reduce&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;accumulator&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;currentValue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;accumulator&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;currentresult&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;accumulator&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; + &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;currentValue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; = &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;result&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Pronto, agora você tem uma contagem que inicia a partir de 5. E, também, já sabe como trabalhar com reduce.&lt;/p&gt;
+
+&lt;p&gt;Lembrando que o &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;reduce()&lt;/code&gt; é um caso complexo. Tem gente que não entende sua necessidade de jeito nenhum. Eu recomendo que se ainda restarem dúvidas, você acesse os três links que estarão da descrição.&lt;/p&gt;
+
+&lt;p&gt;O primeiro é um post do Raul Esteves, &lt;a href=&quot;https://medium.com/@raullesteves/javascript-entendendo-o-reduce-de-uma-vez-por-todas-c4cbaa16e380&quot;&gt;“Entendendo o reduce() de uma vez por todas”&lt;/a&gt; onde ele explica o método passo a passo, achei muito bom.&lt;/p&gt;
+
+&lt;p&gt;O segundo é a &lt;a href=&quot;https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce&quot;&gt;documentação do reduce no MDN&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;O terceiro, por fim, é um vídeo do Wes Doyle: &lt;a href=&quot;https://www.youtube.com/watch?v=CXxVjQ1VTEo&quot;&gt;“Javascript Reduce by Example”&lt;/a&gt;, que é um live coding resumido muito bom também.&lt;/p&gt;
+
+&lt;p&gt;É isso. Espero que agora você já saiba como manipular arrays da melhor forma, com JavaScript.&lt;/p&gt;
+
+&lt;h3 id=&quot;arrow-function&quot;&gt;Arrow function&lt;/h3&gt;
+
+&lt;p&gt;Nossa, achei que não ia chegar nunca nesse assunto. Mas deixei ele mais pro final, pois eu queria que você, que não conhece as &lt;em&gt;Arrow functions&lt;/em&gt; ficasse impressionado com o poder que elas têm sobre a legibilidade e manutebilidade do código.&lt;/p&gt;
+
+&lt;p&gt;Claro que &lt;em&gt;Arrow functions&lt;/em&gt; não se resumem em deixar o código mais legível, existe uma finalidade (muito importante) por trás dela, e é nessa aula que você vai descobrir.&lt;/p&gt;
+
+&lt;h4 id=&quot;syntax&quot;&gt;Syntax&lt;/h4&gt;
+
+&lt;p&gt;A sintaxe das arrow functions é muito simples.&lt;/p&gt;
+
+&lt;p&gt;No JavaScript &lt;em&gt;oldschool&lt;/em&gt;, você declarava funções através da keyword &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;function&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;myCommonFunction&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;c1&quot;&gt;// do my stuff&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Você podia, também, definir que o valor de uma variável recebe uma função.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;myCommonFunction&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;c1&quot;&gt;// do my stuff&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Com a chegada das &lt;em&gt;Arrow functions&lt;/em&gt;, você pode fazer a mesma coisa.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;myArrowFuncion&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;c1&quot;&gt;// do my stuff&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Percebe que apenas removemos a chave &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;function&lt;/code&gt; e acrescentamos o &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;=&amp;gt;&lt;/code&gt;? Daí o nome &lt;em&gt;Arrow functions&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Mas calma. A mágica das &lt;em&gt;Arrows functions&lt;/em&gt; ainda está por vir.&lt;/p&gt;
+
+&lt;p&gt;Imagine que você tem uma função que retorna algum valor, por exemplo, uma ternária. Antes das &lt;em&gt;Arrow functions&lt;/em&gt; você tinha isso:&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;myCommonFunction&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;condition&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;condition&lt;/span&gt;
+		&lt;span class=&quot;p&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;
+		&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;bar&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;E se você pudesse resumir isso em, digamos 1 linha? Bom, na verdade, você pode. Com arrow functions.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;myArrowFuncion&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;condition&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;condition&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;bar&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Isso acontece por que o interpretador permite que você retorne expressões diretamente após o &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;=&amp;gt;&lt;/code&gt;. Vai falar que isso não é demais?&lt;/p&gt;
+
+&lt;p&gt;Você também pode retornar objetos e arrays diretamente, mas com uma peculiaridade: deve colocar entre parênteses:&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;updateUser&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;newProps&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;({&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;newProps&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;})&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;addFruit&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;newFruit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;fruits&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;([&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;fruits&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;newFruit&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;])&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Juntamos o &lt;em&gt;Spread operator&lt;/em&gt; com &lt;em&gt;Arrow functions&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Mas calma, não para por aí. Agora vamos ao real sentido das &lt;em&gt;Arrow functions&lt;/em&gt;, a permanência do contexto.&lt;/p&gt;
+
+&lt;p&gt;Como você já sabe, ou, ao menos, deveria saber, no JavaScript existe uma chave reservada &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;this&lt;/code&gt; que se refere ao contexto a qual está sendo executado.&lt;/p&gt;
+
+&lt;p&gt;Funções geram um novo valor para o this, e isso é um problema, especialmente em casos de callbacks. Vamos demosntrar o problema:&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;age&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+  &lt;span class=&quot;nx&quot;&gt;setInterval&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;growUp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;age&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;No exemplo, o construtor de Person() define o valor de &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;this&lt;/code&gt; como a própria instância. Já dentro da função que é executada como callback do setInterval, o valor de this já não é o mesmo, pois ele agora recebe um novo valor. No caso, em modo não estrito, o valor de &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;this&lt;/code&gt; será o objeto &lt;em&gt;global&lt;/em&gt;, que é onde growUp foi executado.&lt;/p&gt;
+
+&lt;p&gt;Isso significa que, para obtermos acesso valor de &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;this&lt;/code&gt; definido pelo construtor, precisávamos alocar em uma variável e acessar por meio dela.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;age&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+	&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;
+
+  &lt;span class=&quot;nx&quot;&gt;setInterval&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;growUp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;age&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Ou usamos uma &lt;em&gt;Arrow function&lt;/em&gt;. :)&lt;/p&gt;
+
+&lt;p&gt;Arrow functions não recriam o valor de &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;this&lt;/code&gt;, elas mantém o valor do executor.&lt;/p&gt;
+
+&lt;p&gt;O problema inicial do exemplo poderia ser resolvido apenas com uma &lt;em&gt;Arrow function&lt;/em&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;age&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;setInterval&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;age&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Você vai ver muito o uso de &lt;em&gt;Arrow functions&lt;/em&gt; em tudo quanto é lugar ou framework. Então vou deixar outras referências:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=gigtS_5KOqo&quot;&gt;Fireship: Functions - What’s your function? (inglês)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;destructuring&quot;&gt;Destructuring&lt;/h3&gt;
+
+&lt;p&gt;Destructuring é uma técnica simples, que vai te ajudar na produtividade com JavaScript.&lt;/p&gt;
+
+&lt;p&gt;Ela consiste em fazer o assign de variáveis com base em objetos ou arrays, de forma simples, como se você estivesse, realmente, desconstruindo o objeto.&lt;/p&gt;
+
+&lt;p&gt;Digamos que eu queira criar duas variáveis com o valor originial do meu objeto. Eu posso fazer isso criando meu objeto, depois criando quantas variáveis eu quiser capturando o valor das propriedades do meu objeto:&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;original&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;bar&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;original&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// =&amp;gt; 'foo'&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;original&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// =&amp;gt; 'bar'&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;O que funciona de boa. Mas, imagina se eu tenho uma outra propriedade, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;c&lt;/code&gt;, que será adicionada. Vou ter mais uma linha de código que faz o mesmo trabalho, e assim sucessivamente para todo e qualquer item que eu queira capturar.&lt;/p&gt;
+
+&lt;p&gt;Ou eu posso declarar essas constantes usando destructuring, que é muito mais simples.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;original&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;bar&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;original&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Dessa forma eu criei duas constantes, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a&lt;/code&gt; e &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;b&lt;/code&gt;, que recebem o valor das mesmas propriedades no objeto &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;orginial&lt;/code&gt;, surtindo o mesmo efeito da linha anterior, mas, dessa vez, de forma resumida.&lt;/p&gt;
+
+&lt;p&gt;Eu também posso renomear as variáveis, basta dizer o novo nome de cada uma após os dois pontos.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;axis&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;xAxis&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;yAxis&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;axis&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Existe uma outra técnica chamada deep destructuring, que permite a busca de propriedades aninhadas em árvores complexas de objetos.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;tree&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;na&quot;&gt;very&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;na&quot;&gt;deep&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+			&lt;span class=&quot;na&quot;&gt;prop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;
+		&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;very&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;deep&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;prop&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;tree&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;No caso, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;very&lt;/code&gt; e &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;deep&lt;/code&gt; não serão asignadas, elas servem apenas para o mapeamento.&lt;/p&gt;
+
+&lt;p&gt;Se tentar acessar elas, provavelmente vai receber um &lt;em&gt;ReferenceError&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Outro ótimo caso de uso do destructuring é quando você vai receber um objeto gerérico como parâmetro de uma função, mas precisa apenas de algumas propriedades dele.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;genericPersonObject&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;Daniel&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+	&lt;span class=&quot;na&quot;&gt;age&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+	&lt;span class=&quot;na&quot;&gt;contact&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;na&quot;&gt;mail&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;contato@danielbonifacio.com.br&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+		&lt;span class=&quot;na&quot;&gt;phone&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;27992699969&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;fooFunction&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;({&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;age&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;contact&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;mail&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;})&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;age&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;mail&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Eu somente precisava das propriedades &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;name&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;age&lt;/code&gt; e &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;contact.mail&lt;/code&gt; do meu objeto, então desestruturei ele.&lt;/p&gt;
+
+&lt;p&gt;Caso as propriedades não sejam encontradas no objeto, o valor do parâmetro será &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;undefined&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;destructuring-in-arrays&quot;&gt;Destructuring in arrays&lt;/h4&gt;
+
+&lt;p&gt;Destructuring não acontece somente com objetos, você também pode desestruturar objetos, levando em consideração que chaves de arrays são os índices.&lt;/p&gt;
+
+&lt;p&gt;Vamos dizer que você receba um array com 3 parâmetros diferentes, que é muito comum em criação de CLIs, por exemplo. Dentro do código, para não se perder, uma boa alternativa seria nomear eles em variáveis.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;fooFunction&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;service&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;service&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+	&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;url&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;service&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+	&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;generateDefinitions&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;service&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+
+	&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;generateDefinitions&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;fooFunction&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;PetStore&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;https://petstore.swagger.io/&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Bom, você pode fazer isso de forma mais simples com destructuring.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;fooFunction&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;service&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;generateDefinitions&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;service&lt;/span&gt;
+
+	&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;generateDefinitions&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;fooFunction&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;PetStore&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;https://petstore.swagger.io/&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Lembra do &lt;em&gt;Spread operator&lt;/em&gt;? Então, você pode combinar ele com o destructuring, e receber o resto dos argumentos em um array.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;fooFunction&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;service&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;generateDefinitions&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;rest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;service&lt;/span&gt;
+
+	&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;generateDefinitions&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;rest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;fooFunction&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;PetStore&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;https://petstore.swagger.io/&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;bar&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;baz&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Pronto, agora você já sabe destructuring. Esse era o último item da lista essencial de JavaScript antes dos frameworks.&lt;/p&gt;
+
+&lt;p&gt;Agora você está pronto para desbravar todos os frameworks e trabalhar com JavaScript em qualquer stack que sentir vontade.&lt;/p&gt;
+
+&lt;p&gt;Essa mini-série foi criada por um jovem apaixonado por tecnologia. Eu, Daniel Bonifacio.&lt;/p&gt;
+
+&lt;p&gt;Estou muito feliz que você tenha assistido a todos os vídeos, e mais feliz ainda em saber que você escolheu aprender JavaScript, que é a linguagem que eu amo.&lt;/p&gt;
+
+&lt;p&gt;Não se esqueça que os vídeos não param por aqui, ainda temos muito a desbravar, por isso, se inscreva no meu canal, dê um joinha&lt;/p&gt;</content><author><name>Daniel Bonifacio</name></author><summary type="html">Olá. Antes de iniciar, só para te contextualizar: escrevi esse arquivo na intenção de ser um roteiro para uma série de vídeos, por isso, em alguns casos, verão eu me referindo a este como se fosse um vídeo. No mais, espero que aprendam bastante, e compartilhe o conhecimento. Abs, Daniel Bonifacio.</summary></entry></feed>

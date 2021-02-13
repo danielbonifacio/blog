@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React moderno: O que você precisa saber para começar com React em 2020 - Daniel Bonifacio's Blog</title>
+    <link rel="stylesheet" href="/styles/index.css">
+
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>React moderno: O que você precisa saber para começar com React em 2020</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="React moderno: O que você precisa saber para começar com React em 2020" />
+<meta name="author" content="Daniel Bonifacio" />
+<meta property="og:locale" content="pt_BR" />
+<meta name="description" content="Não é de hoje que o React.js é o queridinho das empresas de desenvolvimento de software quando se fala em mobile e front-end web, e isso fez com que surgissem inúmeras vagas relacionadas à tecnologia." />
+<meta property="og:description" content="Não é de hoje que o React.js é o queridinho das empresas de desenvolvimento de software quando se fala em mobile e front-end web, e isso fez com que surgissem inúmeras vagas relacionadas à tecnologia." />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-06-11T00:00:00-03:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="React moderno: O que você precisa saber para começar com React em 2020" />
+<meta name="twitter:site" content="@danielbonifacio" />
+<meta name="twitter:creator" content="@Daniel Bonifacio" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","headline":"React moderno: O que você precisa saber para começar com React em 2020","dateModified":"2020-06-11T00:00:00-03:00","datePublished":"2020-06-11T00:00:00-03:00","mainEntityOfPage":{"@type":"WebPage","@id":"/react-moderno-o-que-voce-precisa-saber-para-comecar-com-react-em-2021"},"url":"/react-moderno-o-que-voce-precisa-saber-para-comecar-com-react-em-2021","author":{"@type":"Person","name":"Daniel Bonifacio"},"description":"Não é de hoje que o React.js é o queridinho das empresas de desenvolvimento de software quando se fala em mobile e front-end web, e isso fez com que surgissem inúmeras vagas relacionadas à tecnologia.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+  <body>
+    <div class="container body">
+      <div class="sidebar">
+  <header>
+    <figure>
+      <span class="smile">
+        <img src="/assets/smile.svg" alt="smile">
+      </span>
+    </figure>
+    <h1 class="blog-title">
+      <a href="/">Daniel Bonifacio</a>
+    </h1>
+    <p>Especialista em desenvolvimento web, atualmente é instrutor de front-end na <a href="#">@algaworks</a>.</p>
+  </header>
+  <aside>
+    <ul class="social-media">
+      <li>
+        <a href="https://instagram.com/danielbonifacio.dev" target="_blank">
+          <img width="18px" src="/assets/instagram.svg" alt="instagram icon">
+          meu instagram
+        </a>
+      </li>
+      <li>
+        <a href="https://youtube.com/particaonerd" target="_blank">
+          <img width="18px" src="/assets/youtube.svg" alt="youtube icon">
+          meu canal no youtube
+        </a>
+      </li>
+    </ul>
+
+    <p>
+      <a href="/feed.xml">RSS Feed</a>
+    </p>
+
+    <p>
+      &copy; 2021 Daniel Bonifacio
+    </p>
+  </aside>
+</div>
+      <main>
+        <article class="post-container">
+          <header class="post-header">
+            <h1>React moderno: O que você precisa saber para começar com React em 2020</h1>
+            <p class="post-date">11 Jun 2020 - Daniel Bonifacio</p>
+          </header>
+
+          <div class="post-content">
+            <p>Não é de hoje que o React.js é o queridinho das empresas de desenvolvimento de software quando se fala em mobile e front-end web, e isso fez com que surgissem inúmeras vagas relacionadas à tecnologia.</p>
+
+<p>Mas nem todo profissional ou iniciante da área de desenvolvimento tem domínio da linguagem de programação JavaScript (que é a base do React.js), e acabam com medo de iniciar com a tecnologia.</p>
+
+<p>Se você é um deles, seus problemas acabaram agora. Neste artigo vamos abordar <strong>tudo que você precisa saber sobre React</strong>, sem a necessidade de muito conhecimento em JavaScript.</p>
+
+<h2 id="índice">Índice</h2>
+
+<ul>
+  <li>O que é React.js
+    <ul>
+      <li>Framework ou Biblioteca?</li>
+      <li>Metodologia de componentes</li>
+    </ul>
+  </li>
+  <li>Como funcionam os componentes no React.js
+    <ul>
+      <li>Propriedades no componente React</li>
+    </ul>
+  </li>
+  <li>Como renderizar componentes React</li>
+  <li>Virtual DOM</li>
+  <li>Explicações finais
+    <ul>
+      <li>Por que não focamos mais em componentes baseados em classe?</li>
+      <li>Por qual motivo temos que importar o pacote React antes utilizar JSX?</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="o-que-é-o-reactjs">O que é o React.js</h2>
+
+<p>Não podemos pular essa parte de jeito nenhum! Para usar o React.js você precisa, antes de tudo, entender o que é e como funciona.</p>
+
+<p>React.js é uma biblioteca de renderização de componentes. Simples assim.</p>
+
+<h3 id="framework-ou-biblioteca">Framework ou Biblioteca?</h3>
+
+<p>Esse é um questionamento muito comum, especialmente no caso do React.js. Antes de responder, vamos entender o que são frameworks e bibliotecas, respectivamente:</p>
+
+<ul>
+  <li>
+    <p>Framework é um conjunto de ferramentas gerais preparado para ajudar o desenvolvedor a criar aplicações, geralmente, robustas e com um nível de padronização e abstração um pouco maior que o desenvolvimento diretamente com a linguagem. Exemplos de frameworks no mercado: Laravel, Nest, Angular, etc.</p>
+  </li>
+  <li>
+    <p>Uma biblioteca é uma ferramenta especializada na resolução de um problema específico. Geralmente, bibliotecas são utilizadas dentro de frameworks.</p>
+  </li>
+</ul>
+
+<p>Tendo isso em mente e sabendo o que o React.js faz, fica fácil de entender que ele é uma biblioteca de renderização de componentes.</p>
+
+<p>Mas por que, geralmente, se referem à ele como framework? A resposta é simples: dificilmente utilizamos somente a biblioteca React.js nos projetos. Geralmente utilizamos outras bibliotecas, para resolvermos problemas comuns, como roteamento (React Router) e gerenciamento de estado (Redux).</p>
+
+<p>O ponto é: o nome React se tornou mais que uma biblioteca, se tornou um ecossistema completo.</p>
+
+<h3 id="metodologia-de-componentes">Metodologia de componentes</h3>
+
+<p>A ideia de trabalhar com a <strong>metodologia de componentes</strong> vem se tornado muito frequente no desenvolvimento, pois facilita muito na manutenção futura e reaproveitamento.</p>
+
+<p>Componentes são baseados em 3 pontos:</p>
+<ul>
+  <li>UI: elemento que será renderizado</li>
+  <li>Props: propriedades que serão passadas ao componente por quem for utilizá-lo</li>
+  <li>Estado: dados que aquele componente terá internamente</li>
+</ul>
+
+<p>Algumas vantagens de trabalhar com a metodologia de componentes:</p>
+
+<ul>
+  <li>Componentes organizados em arquivos separados</li>
+  <li>Componentes podem ser reutilizados em diversos lugares com estados isolados</li>
+  <li>O mesmo componente pode ter variações para cada lugar onde é utilizado, através de propriedades</li>
+  <li>Facilidade na hora de aplicar e dar manutenção em lógica de renderização (caso alguma propriedade seja <code class="language-plaintext highlighter-rouge">false</code>, esconda tal parte da UI)</li>
+</ul>
+
+<p>Então, concluímos que, atualmente, trabalhar com a metodologia de componentes é o que nos torna mais produtivos, e o React.js é a biblioteca que vai nos ajudar a concretizar isso de forma altamente performática e simples.</p>
+
+<h2 id="como-funcionam-os-componentes-no-reactjs">Como funcionam os componentes no React.js</h2>
+
+<p>Componentes no React são escritos em arquivos JavaScript comuns, através de uma extensão da linguagem chamada JSX. O JSX é, basicamente, uma forma de escrever linguagem de marcação (extremamente semelhante ao HTML) de componentes dentro do JavaScript, podendo aproveitar todos os recursos da linguagem para aplicar lógica na renderização. Se você quiser saber mais sobre JSX, acesse o melho lugar para isso é a <a href="https://pt-br.reactjs.org/docs/introducing-jsx.html">documentação oficial do JSX no React</a>.</p>
+
+<p>Um componente React pode ser escrito da seguinte forma:</p>
+
+<div class="language-jsx highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">import</span> <span class="nx">React</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">react</span><span class="dl">'</span> <span class="c1">// necessário para usar JSX no arquivo</span>
+
+<span class="kd">function</span> <span class="nx">HelloWorldComponent</span> <span class="p">(</span><span class="nx">props</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">return</span> <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className</span><span class="p">=</span><span class="s">"HelloWorld"</span><span class="p">&gt;</span>Hello, World!<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Ou, também, da seguinte forma:</p>
+
+<div class="language-jsx highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">import</span> <span class="nx">React</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">react</span><span class="dl">'</span> <span class="c1">// necessário para usar JSX no arquivo</span>
+
+<span class="kd">class</span> <span class="nx">HelloWorldComponent</span> <span class="kd">extends</span> <span class="nx">React</span><span class="p">.</span><span class="nx">Component</span> <span class="p">{</span>
+  <span class="nx">render</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className</span><span class="p">=</span><span class="s">"HelloWorld"</span><span class="p">&gt;</span>Hello, World!<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>O primeiro exemplo é de um componente funcional. É uma função que retorna um JSX. Já o segundo, é um componente baseado em classe. Ele extende de uma classe <code class="language-plaintext highlighter-rouge">React.Component</code>, que nos possibilita utilizar estado, ciclos de vida, e muito mais.</p>
+
+<p>O mercado está abandonando o uso de componentes baseados em classe e focando em componentes funcionais, por conta dos Hooks e outras facilidades. No final do artigo tem uma explicação técnica para isso. Por esse motivo, todo o artigo será escrito pensando em componentes funcionais.</p>
+
+<p>Na primeira linha do primeiro exemplo, fazemos a importação do pacote React, que é necessário para a utilização do JSX dentro do arquivo (a explicação técnica para isso vai estar no final do artigo).</p>
+
+<p>Em seguida criamos um método com o nome do nosso componente (“HelloWorldComponent”, no caso) que retorna um elemento JSX.</p>
+
+<p><strong>Atenção:</strong> É importante que nosso componente esteja dentro de uma função que retorna o JSX, e não em uma constante que retorna diretamente o JSX, pois o React espera o método para ser executado, e não a execução do método em si, para ser reativo.</p>
+
+<h3 id="propriedades-no-componente-react">Propriedades no componente React</h3>
+
+<p>Se você prestou atenção no nosso código anterior, deve ter percebido que a função recebia um parâmetro <code class="language-plaintext highlighter-rouge">props</code>. Isso significa que podemos enviar e receber propriedades em nossos componentes, e essas propriedades estarão disponíveis no primeiro parâmetro da função do nosso componente.</p>
+
+<p>Vamos a um exemplo prático:</p>
+
+<div class="language-jsx highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">import</span> <span class="nx">React</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">react</span><span class="dl">'</span> <span class="c1">// necessário para usar JSX no arquivo</span>
+
+<span class="k">export</span> <span class="kd">function</span> <span class="nx">HelloWorldComponent</span> <span class="p">(</span><span class="nx">props</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">return</span> <span class="p">(</span>
+    <span class="p">&lt;</span><span class="nt">div</span>
+      <span class="na">style</span><span class="p">=</span><span class="si">{</span> <span class="p">{</span> <span class="na">color</span><span class="p">:</span> <span class="nx">props</span><span class="p">.</span><span class="nx">color</span> <span class="o">||</span> <span class="dl">'</span><span class="s1">black</span><span class="dl">'</span> <span class="p">}</span> <span class="si">}</span>
+      <span class="na">className</span><span class="p">=</span><span class="s">"HelloWorld"</span>
+    <span class="p">&gt;</span>
+      Hello, World!
+    <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+  <span class="p">)</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Refatoramos nosso componente de forma a dar suporte para uma propriedade <code class="language-plaintext highlighter-rouge">color</code> e, então, usamos o valor dessa propriedade dentro do <em>style</em> da nossa div. Caso essa propriedade não seja passada, ou venha como undefined, definimos um valor padrão para  <code class="language-plaintext highlighter-rouge">"black"</code>, usando o <a href="https://www.w3schools.com/js/js_comparisons.asp">operador lógico OR</a> (<code class="language-plaintext highlighter-rouge">||</code>).</p>
+
+<p>Agora podemos chamar nosso componente e passar nossa propriedade:</p>
+
+<div class="language-jsx highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">import</span> <span class="nx">React</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">react</span><span class="dl">'</span> <span class="c1">// necessário para usar JSX no arquivo</span>
+<span class="k">import</span> <span class="p">{</span> <span class="nx">HelloWorldComponent</span> <span class="p">}</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">./HelloWorldComponent</span><span class="dl">'</span> <span class="c1">// importando nosso componente</span>
+
+<span class="kd">function</span> <span class="nx">App</span> <span class="p">()</span> <span class="p">{</span>
+  <span class="k">return</span> <span class="p">(</span>
+    <span class="p">&lt;</span><span class="nc">HelloWorldComponent</span> <span class="na">color</span><span class="p">=</span><span class="s">"red"</span> <span class="p">/&gt;</span>
+  <span class="p">)</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Irá renderizar nosso componente com a o texto da cor vermelha. Mas, caso a gente não passe a propriedade color, o valor padrão (<code class="language-plaintext highlighter-rouge">"black"</code>, no nosso caso) será assumido.</p>
+
+<h2 id="como-renderizar-componentes-react">Como renderizar componentes React</h2>
+
+<p>Você deve estar se perguntando nesse exato momento: “onde eu digito tudo isso? como vejo o resultado?”. E é agora que vamos por a mão na massa!</p>
+
+<p>Iniciar um projeto react é muito simples. Abra seu terminal preferido no seu diretório de desenvolvimento e execute o comando:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npx create-react-app my-app
+</code></pre></div></div>
+
+<p>e aguarde uns 2 minutos. Isso vai gerar um novo diretório chamado <code class="language-plaintext highlighter-rouge">my-app</code> na raiz de onde executou o comando.</p>
+
+<p>Após finalizar a execução desse comando, abra o diretório com seu editor ou IDE preferido. Você vai ver uma estrutura parecida com essa:</p>
+
+<ul>
+  <li>src
+    <ul>
+      <li>App.css</li>
+      <li>App.js</li>
+      <li>App.test.js</li>
+      <li>index.css</li>
+      <li>index.js</li>
+      <li>logo.svg</li>
+      <li>serviceWorker.js</li>
+      <li>setupTests.js</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Vamos entender para que serve cada arquivo:</p>
+
+<h3 id="indexjs">index.js</h3>
+
+<p>Arquivo inicial que será executado na nossa aplicação. Tudo que for chamado na nossa aplicação, estará ali. Incluindo nosso <code class="language-plaintext highlighter-rouge">App.js</code>. Ideal para abstrair  configurações gerais do projeto.</p>
+
+<h3 id="appjs">App.js</h3>
+
+<p>Componente raiz da nossa aplicação. Este componente que vai ser renderizado dentro do index, e ele se encarrega de procurar aninhar todos os outros componentes.</p>
+
+<h3 id="serviceworkerjs-setuptestsjs-e-apptestjs">serviceWorker.js, setupTests.js e App.test.js</h3>
+
+<p><code class="language-plaintext highlighter-rouge">serviceWorker.js</code> é arquivo que vem por padrão caso queira ativar o modo PWA no projeto. <code class="language-plaintext highlighter-rouge">setupTests.js</code> é um arquivo de configuração do Jest, para testes automatizados. <code class="language-plaintext highlighter-rouge">App.test.js</code> é um arquivo de teste automatizado. Abordamos sobre ambos os assuntos no <a href="https://danielbonifacio.com.br">nosso curso completo de React</a>. Por hora, não vamos nos preocupar com isso.</p>
+
+<p>Sugiro que limpe seu ambiente de trabalhado deletando os arquivos:</p>
+
+<ul>
+  <li>logo.svg (remova a importação e utilização na tag <code class="language-plaintext highlighter-rouge">&lt;img /&gt;</code> no arquivo <code class="language-plaintext highlighter-rouge">App.js</code>)</li>
+  <li>serviceWorker.js (remova a importação e utilização no final do arquivo <code class="language-plaintext highlighter-rouge">index.js</code>)</li>
+  <li>setupTests.js</li>
+  <li>App.test.js</li>
+</ul>
+
+<p>Agora basta executar o comando <code class="language-plaintext highlighter-rouge">npm start</code> e começar a brincar com seu projeto React.</p>
+
+<h2 id="virtual-dom">Virtual DOM</h2>
+
+<p>Antes de antes de entender o que é o Virtual DOM, precisamos entender o que é o DOM em si. Temos um <a href="#artigo-dom">artigo completo sobre DOM</a>, mas vamos resumir ele um pouco sobre ele aqui.</p>
+
+<p>Basicamente, todos os elementos que você cria com HTML, precisam ser interpretados renderizados. Porém, para ter acesso a cada elemento individualmente, por meio do JavaScript, os navegadores armazenam uma cópia da estrutura hierárquica do nosso HTML em um formato que pode ser acessado pelo JavaScript. Então, concluímos que o DOM é uma representação do nosso HTML que pode ser acessada e manipulada dentro do JavaScript.</p>
+
+<p>Porém, executar operações constantemente nesse grande objeto, se torna algo complexo e lento. Por esse motivo, o Facebook criou o chamado Virtual DOM. Ele é, basicamente, uma representação mais simples e mais leve do DOM, que pode ser manipulada de forma mais performática e, somente quando necessário, refletir as operações no DOM original.</p>
+
+<p>Essa é uma informação apenas teórica, pois você não precisa se preocupar em aplicar o Virtual DOM, pois é abstraída pelo pacote <code class="language-plaintext highlighter-rouge">react-dom</code> (vem por padrão no <code class="language-plaintext highlighter-rouge">npx create-react-app</code>).</p>
+
+<h2 id="high-order-components">High Order Components</h2>
+
+<h2 id="explicações-finais">Explicações finais</h2>
+
+<h3 id="por-que-não-focamos-mais-em-componentes-baseados-em-classe">Por que não focamos mais em componentes baseados em classe?</h3>
+
+<p>Componentes baseados em classe foram extremamente importantes no desenvolvimento com React há alguns anos. Antigamente, apenas componentes baseados em classe podiam ter estado e executar ações no que a gente chama de ciclo de vida do componente.</p>
+
+<h4 id="ciclo-de-vida-do-componente-react">Ciclo de vida do componente React</h4>
+
+<p>Componentes possuem um ciclo de vida, e, para cada evento do ciclo, podemos executar métodos específicos.</p>
+
+<p><img src="https://miro.medium.com/max/3348/1*cEWErpe-oY-_S1dOaT1NtA.jpeg" alt="Lifecycle react" /></p>
+
+<p>Ou seja, com componentes baseados em classe, podemos executar algo assim que o componente for montado, ou, por exemplo, alguma propriedade ou estado foi alterado, da seguinte forma:</p>
+
+<div class="language-jsx highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">import</span> <span class="nx">React</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">react</span><span class="dl">'</span>
+
+<span class="kd">class</span> <span class="nx">CoolComponent</span> <span class="kd">extends</span> <span class="nx">React</span><span class="p">.</span><span class="nx">Component</span> <span class="p">{</span>
+  <span class="kd">constructor</span> <span class="p">(</span><span class="nx">props</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">super</span><span class="p">(</span><span class="nx">props</span><span class="p">)</span>
+
+    <span class="k">this</span><span class="p">.</span><span class="nx">state</span> <span class="o">=</span> <span class="p">{</span>
+      <span class="na">amICool</span><span class="p">:</span> <span class="kc">true</span>
+    <span class="p">}</span>
+
+  <span class="p">}</span>
+
+  <span class="nx">componentDidMount</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nb">window</span><span class="p">.</span><span class="nx">alert</span><span class="p">(</span><span class="dl">'</span><span class="s1">WoW! I just got mounted! Ihuuuuu</span><span class="dl">'</span><span class="p">)</span>
+    <span class="nx">setTimeout</span><span class="p">(()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+      <span class="k">this</span><span class="p">.</span><span class="nx">setState</span><span class="p">({</span> <span class="na">amICool</span><span class="p">:</span> <span class="kc">false</span> <span class="p">})</span>
+    <span class="p">},</span> <span class="mi">5000</span><span class="p">)</span>
+  <span class="p">}</span>
+
+  <span class="nx">componentDidUpdate</span><span class="p">(</span><span class="nx">previousProps</span><span class="p">,</span> <span class="nx">previousState</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nx">previousState</span><span class="p">.</span><span class="nx">amICool</span> <span class="o">!==</span> <span class="k">this</span><span class="p">.</span><span class="nx">state</span><span class="p">.</span><span class="nx">amICool</span><span class="p">)</span> <span class="p">{</span>
+      <span class="nb">window</span><span class="p">.</span><span class="nx">alert</span><span class="p">(</span><span class="dl">'</span><span class="s1">My cool status has been changed.</span><span class="dl">'</span><span class="p">)</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+  
+  <span class="nx">render</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+      <span class="si">{</span>
+        <span class="k">this</span><span class="p">.</span><span class="nx">state</span><span class="p">.</span><span class="nx">amICool</span>
+          <span class="p">?</span> <span class="dl">'</span><span class="s1">I am a cool component. Just that.</span><span class="dl">'</span>
+          <span class="p">:</span> <span class="dl">'</span><span class="s1">Maybe I am not so cool :C</span><span class="dl">'</span>
+      <span class="si">}</span>
+    <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>O código acima usa componente baseado em classe para observar se o estado <code class="language-plaintext highlighter-rouge">amICool</code> do componente é alterado, e, caso ele seja, emite um alerta. Também emite um alerta inicial, quando o componente é criado, e programa uma alreação no estado para os próximos 5 segundos.</p>
+
+<p>Muito legal e simples de entender. Porém, muito verboso. A gente consegue fazer isso com Hooks de forma mais simples:</p>
+
+<div class="language-jsx highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">import</span> <span class="nx">React</span><span class="p">,</span> <span class="p">{</span> <span class="nx">useState</span><span class="p">,</span> <span class="nx">useEffect</span> <span class="p">}</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">react</span><span class="dl">'</span>
+
+<span class="kd">function</span> <span class="nx">CoolComponent</span> <span class="p">()</span> <span class="p">{</span>
+  <span class="kd">const</span> <span class="p">[</span><span class="nx">amICool</span><span class="p">,</span> <span class="nx">setAmICool</span><span class="p">]</span> <span class="o">=</span> <span class="nx">useState</span><span class="p">(</span><span class="kc">true</span><span class="p">)</span>
+  
+  <span class="nx">useEffect</span><span class="p">(()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="nb">window</span><span class="p">.</span><span class="nx">alert</span><span class="p">(</span><span class="dl">'</span><span class="s1">WoW! I just got mounted! Ihuuuuu</span><span class="dl">'</span><span class="p">)</span>
+    <span class="nx">setTimeout</span><span class="p">(()</span> <span class="o">=&gt;</span> <span class="nx">setAmICool</span><span class="p">(</span><span class="kc">false</span><span class="p">),</span> <span class="mi">5000</span><span class="p">)</span>
+  <span class="p">},</span> <span class="p">[])</span>
+
+  <span class="nx">useEffect</span><span class="p">(()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="nb">window</span><span class="p">.</span><span class="nx">alert</span><span class="p">(</span><span class="dl">'</span><span class="s1">My cool status has been changed.</span><span class="dl">'</span><span class="p">)</span>
+  <span class="p">},</span> <span class="p">[</span><span class="nx">amICool</span><span class="p">])</span>
+
+  <span class="k">return</span> <span class="k">return</span> <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="si">{</span>
+      <span class="k">this</span><span class="p">.</span><span class="nx">state</span><span class="p">.</span><span class="nx">amICool</span>
+        <span class="p">?</span> <span class="dl">'</span><span class="s1">I am a cool component. Just that.</span><span class="dl">'</span>
+        <span class="p">:</span> <span class="dl">'</span><span class="s1">Maybe I am not so cool :C</span><span class="dl">'</span>
+    <span class="si">}</span>
+  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Os Hooks trabalham de forma mais inteligente, usando a metodologia de dependência. E só podemos utiliza Hooks dentro de componentes funcionais. E esse é um dos motivos pelo qual o mercado está focando em componentes funcionais.</p>
+
+<p>Isso não significa que componentes baseados em classe estão obsoletos ou algo do tipo. Ainda são válidos e terão um bom suporte. Apenas significa que existe uma outra forma de trabalhar com ciclos de vida e reatividade, com componentes funcionais, e isso é ótimo.</p>
+
+<h3 id="por-qual-motivo-temos-que-importar-o-pacote-react-antes-utilizar-jsx">Por qual motivo temos que importar o pacote React antes utilizar JSX?</h3>
+
+<p>A resposta para isso é bem simples, e tem a ver com o compilador de JavaScript babel. Ao retornar uma tag JSX, o compilador renderiza:</p>
+
+<div class="language-jsx highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">a</span> <span class="o">=</span> <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>Hello, World<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</code></pre></div></div>
+
+<p>para:</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">a</span> <span class="o">=</span> <span class="nx">React</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span>
+  <span class="dl">"</span><span class="s2">div</span><span class="dl">"</span><span class="p">,</span>
+  <span class="kc">null</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Hello, World</span><span class="dl">"</span>
+<span class="p">);</span>
+</code></pre></div></div>
+
+<p>E, por isso, você precisa importar o React, pois, por debaixo dos panos, se usa o <code class="language-plaintext highlighter-rouge">React.createElement</code>. Se quiser se aprofundar mais sobre o compilador babel, e onde ele afeta no desenvolvimento, temos um <a href="https://algaworks.com">curso completo de React.js</a> que vai elevar todas as suas skills sobre o ecossistema React/JavaScript.</p>
+
+
+            <h2 class="more-articles">Mais artigos</h2>
+            <ul class="post-minimal-list">
+              
+                <li class="post">
+                  <a href="/como-estudar-programacao">Como estudar programação?</a>
+                </li>
+              
+                <li class="post">
+                  <a href="/o-que-e-programacao">O que é programação?</a>
+                </li>
+              
+                <li class="post">
+                  <a href="/react-moderno-o-que-voce-precisa-saber-para-comecar-com-react-em-2021">React moderno: O que você precisa saber para começar com React em 2020</a>
+                </li>
+              
+                <li class="post">
+                  <a href="/javascript-antes-dos-frameworks">JavaScript antes de qualquer framework</a>
+                </li>
+              
+            </ul>
+            <div style="margin-bottom: 120px">
+
+            </div>
+          </div>
+        </article>
+      </main>
+    </div>
+  </body>
+</html>

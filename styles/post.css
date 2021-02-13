@@ -1,0 +1,74 @@
+.post-container {
+  color: var(--primary);
+}
+
+.post-container .post-header {
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.post-container .post-header h1 {
+  font-size: 2em;
+}
+
+.post-container .post-content {
+  font-size: 1.2em;
+  line-height: 1.6em;
+  max-width: 640px;
+}
+
+.post-container .post-content ul, 
+.post-container .post-content ol {
+  margin-left: 2em;
+}
+
+.post-container .post-content p:not(:last-child) {
+  margin-bottom: 42px;
+}
+
+.post-container .post-content > *:not(:last-child) {
+  margin-bottom: 42px;
+}
+
+.post-container .post-content pre {
+  padding: 24px;
+  line-height: 1.7em;
+}
+
+.post-container .post-content img {
+  max-width: 100%;
+}
+
+.post-container .post-content h2:last-of-type {
+  margin-bottom: 12px;
+}
+
+.post-container .post-content ul:last-of-type {
+  padding-left: 24px;
+}
+
+.post-container .more-articles {
+  margin-top: 64px;
+}
+
+.post-container .post-content blockquote {
+  background-color: rgba(69, 72, 81, 0.15);
+  padding: 16px;
+}
+
+.post-container .post-content p a {
+  border-bottom: 1px dashed rgba(69, 72, 81, 0.3);
+  font-weight: 600;
+}
+
+.post-container .post-content p a:hover,
+.post-container .post-content p a:focus {
+  border-color: rgba(69, 72, 81, 1);
+}
+
+.post-container .post-content blockquote::before {
+  content: "\> citação:";
+  display: inline;
+  opacity: 0.5;
+}

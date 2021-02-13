@@ -1,0 +1,55 @@
+.sidebar {
+  background-color: #454851;
+  color: #ffffff;
+  padding: 8px;
+}
+
+.sidebar header {
+  background-color: #454851;
+  position: sticky;
+  padding-top: 24px;
+  top: 0;
+}
+
+.sidebar a {
+  color: #ffffff;
+}
+
+.sidebar p a {
+  border-bottom: 1px dashed #ffffff4d;
+}
+.sidebar p a:hover {
+  border-color: #ffffff;
+}
+
+.sidebar .blog-title a {
+  border: none;
+}
+
+.sidebar .blog-title {
+  font-size: 2em;
+  margin-bottom: 36px;
+}
+
+.sidebar aside {
+  margin-top: 36px;
+}
+
+.sidebar aside ul {
+  list-style: none;
+}
+.sidebar aside ul li a {
+  display: flex;
+  align-items: center;
+}
+.sidebar aside ul li a img {
+  margin-right: 12px;
+}
+
+.sidebar aside > * {
+  margin-bottom: 24px;
+}
+
+.sidebar .social-media li:not(:last-child) {
+  margin-bottom: 12px;
+}

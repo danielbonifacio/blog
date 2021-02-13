@@ -1,0 +1,31 @@
+---
+---
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog do Daniel Bonifacio - Assuntos sobre programação</title>
+    <link rel="stylesheet" href="./styles/index.css">
+    {% seo %}
+  </head>
+  <body>
+    <div class="container body">
+      {% include sidebar.html %}
+      <main>
+        <article class="post-container">
+          <ol class="post-list">
+            {% for post in site.posts %}
+              <li class="post">
+                <a href="{{ post.url }}">{{ post.title }}</a>
+                <div class="date">
+                  <time style="width: 140px;" class="post-stub-date" datetime="{{ post.date }}">{{ post.date | date: "%b %d, %Y" }}</time>
+                </div>
+              </li>
+            {% endfor %}
+          </ol>
+        </article>
+      </main>
+    </div>
+  </body>
+</html>
